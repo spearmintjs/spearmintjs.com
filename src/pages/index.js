@@ -5,9 +5,6 @@ import Layout from '../components/layout';
 
 import demo from '../assets/images/demo.png';
 import todoTest from '../assets/images/todoTest.png'
-import pic02 from '../assets/images/pic02.jpg';
-import pic03 from '../assets/images/pic03.jpg';
-import pic04 from '../assets/images/pic04.jpg';
 
 class Homepage extends React.Component {
   render() {
