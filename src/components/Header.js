@@ -22,7 +22,7 @@ class Header extends React.Component {
           <p>testing react without the headaches</p>
           <ul className='actions'>
             <li>
-              <a href='#one' className='button scrolly'>
+              <a href='#' className='button scrolly'>
                 download
               </a>
             </li>
