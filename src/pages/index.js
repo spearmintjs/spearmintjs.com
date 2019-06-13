@@ -1,8 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-
 import Layout from '../components/layout';
-
 import demo from '../assets/images/demo.png';
 import todoTest from '../assets/images/todoTest.png'
 
@@ -19,13 +17,13 @@ class Homepage extends React.Component {
             <div className='col-6 center' >
               <header className='major'>
                 <h2>
-                  Use spearmint to create tests. 
+                  Use spearmint to create tests.
                   <br />
                   Zero coding required.
                 </h2>
               </header>
               <p>
-                Easily create tests using our UI and refer to the browser, codebase, and docs all in one place. Once you are done you can save an executable Jest test file in your __tests__ folder 
+                Easily create tests using our UI and refer to the browser, codebase, and docs all in one place. Once you are done you can save an executable Jest test file in your __tests__ folder. 
               </p>
             </div>
             <div className='col-6'>
@@ -51,7 +49,7 @@ class Homepage extends React.Component {
                 Writing tests is like eating your veggies: it is something everyone knows that they should do, but not everyone does. Spearmint.js provides a simple way to write tests that gives you confidence your React application will work in the way your users interact with it. 
               </p>
               <p>
-                Spearmint provides a user-friendly GUI for developers to easily generate React tests.    It dynamically converts user inputs into executable Jest test code by using DOM query selectors provided by the react-testing-library. We chose react-testing-library over Enzyme because it guides developers to focus on testing user behavior rather than testing implementation details. By leveraging react-testing-library, spearmint provides our users with more stable tests that do not break when refactoring or gives false positives due to shallow-rendering.      
+                Spearmint provides a user-friendly GUI for developers to easily generate React tests. It dynamically converts user inputs into executable Jest test code by using DOM query selectors provided by the react-testing-library. We chose react-testing-library over Enzyme because it guides developers to focus on testing user behavior rather than testing implementation details. By leveraging react-testing-library, spearmint provides our users with more stable tests that do not break when refactoring or gives false positives due to shallow-rendering.      
               </p>
               <p>
                 <i>

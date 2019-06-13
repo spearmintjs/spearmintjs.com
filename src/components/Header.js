@@ -2,6 +2,52 @@ import React from 'react';
 import spearmintLogo from '../assets/images/spearmint.png';
 
 class Header extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.os = ''; 
+    this.downloadLink = '';
+    this.downloadClassName = '';
+  }
+
+  componentDidMount() {
+    this.getOS();  
+    this.setDownloadLink();
+  }
+
+  getOS() {
+    var userAgent = window.navigator.userAgent,
+        platform = window.navigator.platform,
+        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+        iosPlatforms = ['iPhone', 'iPad', 'iPod']
+  
+    if (macosPlatforms.indexOf(platform) !== -1) {
+      this.os = 'Mac OS';
+    } else if (iosPlatforms.indexOf(platform) !== -1) {
+      this.os = 'iOS';
+    } else if (windowsPlatforms.indexOf(platform) !== -1) {
+      this.os = 'Windows';
+    } else if (/Android/.test(userAgent)) {
+      this.os = 'Android';
+    } else if (!this.os && /Linux/.test(platform)) {
+      this.os = 'Linux';
+    }
+  }
+
+  setDownloadLink() {
+    if (this.os === 'Mac OS' || this.os === 'iOS') {
+      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg';
+      this.downloadClassName = 'icon alt fa-apple margin-left';
+    } else if (this.os === 'Windows' || this.os === 'Android') {
+      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint+Setup+0.1.0.exe';
+      this.downloadClassName = 'icon alt fa-windows margin-left';
+    } else if (this.os === 'Linux') {
+      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg';
+      this.downloadClassName = 'icon alt fa-ubuntu margin-left';
+    }
+  }
+
   render() {
     return (
       <section id='header'>
@@ -22,9 +68,11 @@ class Header extends React.Component {
           <p>testing react without the headaches</p>
           <ul className='actions'>
             <li>
-              <a href='#' className='button scrolly'>
+              <a href='https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg' className='button scrolly'>
                 download
+                <i className={this.downloadClassName}></i>
               </a>
+              
             </li>
           </ul>
         </div>
