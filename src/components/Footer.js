@@ -11,7 +11,7 @@ class Footer extends React.Component {
         <p>Join us and help developers write better React tests in less time. <br/> Star us on Github! </p>
         <ul className='actions uniform'>
           <li>
-            <a href='#' id='footer-buttons' className='button special'>
+            <a href='mailto:apark0720@gmail.com' id='footer-buttons' className='button special'>
               Email
             </a>
           </li>

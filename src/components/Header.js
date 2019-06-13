@@ -6,8 +6,8 @@ class Header extends React.Component {
     super(props)
 
     this.os = ''; 
-    this.downloadLink = '';
-    this.downloadClassName = '';
+    this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg';
+    this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
   componentDidMount() {
@@ -44,11 +44,11 @@ class Header extends React.Component {
       this.downloadClassName = 'icon alt fa-windows margin-left';
     } else if (this.os === 'Linux') {
       this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg';
-      this.downloadClassName = 'icon alt fa-ubuntu margin-left';
+      this.downloadClassName = 'icon alt fa-linux margin-left';
     }
   }
-
   render() {
+    console.log(this.downloadLink);
     return (
       <section id='header'>
         <div className='inner'>

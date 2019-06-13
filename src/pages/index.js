@@ -74,12 +74,12 @@ class Homepage extends React.Component {
               <h3>Alex Park</h3>
                 <ul className='icons'>
                   <li>
-                    <a href='#' className='icon alt fa-linkedin'>
+                    <a href='https://www.linkedin.com/apark0720' className='icon alt fa-linkedin'>
                       <span className='label'>LinkedIn</span>
                     </a>
                   </li>
                   <li>
-                    <a href='#' className='icon alt fa-github'>
+                    <a href='https://www.github.com/apark0720' className='icon alt fa-github'>
                       <span className='label'>GitHub</span>
                     </a>
                   </li>
@@ -91,12 +91,12 @@ class Homepage extends React.Component {
               <h3>Johnny Lim</h3>
                 <ul className='icons'>
                   <li>
-                    <a href='#' className='icon alt fa-linkedin'>
+                    <a href='https://www.linkedin.com/lim-johnny' className='icon alt fa-linkedin'>
                       <span className='label'>LinkedIn</span>
                     </a>
                   </li>
                   <li>
-                    <a href='#' className='icon alt fa-github'>
+                    <a href='https://www.github.com/johnny-lim' className='icon alt fa-github'>
                       <span className='label'>GitHub</span>
                     </a>
                   </li>
@@ -108,29 +108,12 @@ class Homepage extends React.Component {
               <h3>Julie Beak</h3>
                 <ul className='icons'>
                   <li>
-                    <a href='#' className='icon alt fa-linkedin'>
+                    <a href='https://www.linkedin.com/juliebeak' className='icon alt fa-linkedin'>
                       <span className='label'>LinkedIn</span>
                     </a>
                   </li>
                   <li>
-                    <a href='#' className='icon alt fa-github'>
-                      <span className='label'>GitHub</span>
-                    </a>
-                  </li>
-                </ul>
-            </div>
-            <div className='col-4'>
-              <span className='image fit'>
-              </span>
-              <h3>Natlyn Phomsavanh</h3>
-                <ul className='icons'>
-                  <li>
-                    <a href='#' className='icon alt fa-linkedin'>
-                      <span className='label'>LinkedIn</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='#' className='icon alt fa-github'>
+                    <a href='https://www.github.com/julicious100' className='icon alt fa-github'>
                       <span className='label'>GitHub</span>
                     </a>
                   </li>
@@ -142,12 +125,29 @@ class Homepage extends React.Component {
               <h3>Karen Pinilla</h3>
                 <ul className='icons'>
                   <li>
-                    <a href='#' className='icon alt fa-linkedin'>
+                    <a href='https://www.linkedin.com/in/karen-pinilla/' className='icon alt fa-linkedin'>
                       <span className='label'>LinkedIn</span>
                     </a>
                   </li>
                   <li>
-                    <a href='#' className='icon alt fa-github'>
+                    <a href='https://github.com/karenpinilla' className='icon alt fa-github'>
+                      <span className='label'>GitHub</span>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+            <div className='col-4'>
+              <span className='image fit'>
+              </span>
+              <h3>Natlyn Phomsavanh</h3>
+                <ul className='icons'>
+                  <li>
+                    <a href='https://linkedin.com/in/natlyn-phom' className='icon alt fa-linkedin'>
+                      <span className='label'>LinkedIn</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href='https://github.com/natlynp' className='icon alt fa-github'>
                       <span className='label'>GitHub</span>
                     </a>
                   </li>
