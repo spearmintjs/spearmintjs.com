@@ -1,12 +1,11 @@
 import React from 'react';
-import spearmintLogo from '../assets/images/spearmint.png';
 
 class Header extends React.Component {
   constructor(props) {
     super(props)
 
     this.os = ''; 
-    this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg';
+    this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-v1.0.dmg';
     this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
@@ -37,13 +36,13 @@ class Header extends React.Component {
 
   setDownloadLink() {
     if (this.os === 'Mac OS' || this.os === 'iOS') {
-      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg';
+      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-v1.0.dmg';
       this.downloadClassName = 'icon alt fa-apple margin-left';
     } else if (this.os === 'Windows' || this.os === 'Android') {
-      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint+Setup+0.1.0.exe';
+      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-v1.0.exe';
       this.downloadClassName = 'icon alt fa-windows margin-left';
     } else if (this.os === 'Linux') {
-      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg';
+      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-v1.0';
       this.downloadClassName = 'icon alt fa-linux margin-left';
     }
   }

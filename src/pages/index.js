@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
-import demo from '../assets/images/demo.png';
+import appDemo from '../assets/images/appDemo.gif';
 import todoTest from '../assets/images/todoTest.png'
 
 class Homepage extends React.Component {
@@ -28,7 +28,7 @@ class Homepage extends React.Component {
             </div>
             <div className='col-6'>
               <span className='image fit'>
-                <img src={demo} alt='' />
+                <img src={appDemo} alt='' />
               </span>
             </div>
           </div>
