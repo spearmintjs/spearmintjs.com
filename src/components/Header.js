@@ -67,7 +67,7 @@ class Header extends React.Component {
           <p>testing react without the headaches</p>
           <ul className='actions'>
             <li>
-              <a href='https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-0.1.0.dmg' className='button scrolly'>
+              <a href={this.downloadLink} className='button scrolly'>
                 download
                 <i className={this.downloadClassName}></i>
               </a>
