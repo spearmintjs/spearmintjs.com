@@ -52,7 +52,7 @@ class Header extends React.Component {
     return (
       <section id='header'>
         <div className='inner'>
-         <div className='flex'><h1>spearmint.js</h1>     
+         <div className='flex'><h1>spearmint</h1>     
           <svg
             viewBox='0 0 24 24'
             xmlns='http://www.w3.org/2000/svg'
