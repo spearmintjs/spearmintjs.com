@@ -43,7 +43,7 @@ class Homepage extends React.Component {
             </div>
             <div className='col-6'>
               <header className='major'>
-                <h2>A fresh take on testing.</h2>
+                <h2>Spearmint - a fresh take on testing.</h2>
               </header>
               <p>
                 Writing tests is like eating your veggies: it is something everyone knows that they
