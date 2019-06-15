@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'spearmint.js',
     author: 'spearmint',
-    description: 'React testing. Without the headaches.',
+    description: 'Testing react without the headaches.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,6 +16,22 @@ module.exports = {
         theme_color: '#02C2C3',
         display: 'minimal-ui',
         icon: 'src/assets/images/spearmint.png', // This path is relative to the root of the site.
+      },
+
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-107312161-2',
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ['/preview/**', '/do-not-track/me/too/'],
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: 'spearmintjs.com',
       },
     },
     'gatsby-plugin-sass',

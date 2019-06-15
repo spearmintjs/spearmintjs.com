@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import appDemo from '../assets/images/appDemo.gif';
-import todoTest from '../assets/images/todoTest.png'
+import todoTest from '../assets/images/todoTest.png';
 
 class Homepage extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Homepage extends React.Component {
 
         <section id='one' className='main style1'>
           <div className='grid-wrapper'>
-            <div className='col-6 center' >
+            <div className='col-6 center'>
               <header className='major'>
                 <h2>
                   Use spearmint to create tests.
@@ -23,7 +23,9 @@ class Homepage extends React.Component {
                 </h2>
               </header>
               <p>
-                Easily create tests using our UI and refer to the browser, codebase, and docs all in one place. Once you are done you can save an executable Jest test file in your __tests__ folder. 
+                Easily create tests using our UI and refer to the browser, codebase, and docs all in
+                one place. Once you are done you can save an executable Jest test file in your
+                __tests__ folder.
               </p>
             </div>
             <div className='col-6'>
@@ -41,19 +43,28 @@ class Homepage extends React.Component {
             </div>
             <div className='col-6'>
               <header className='major'>
-                <h2>
-                  A fresh take on testing.
-                </h2>
+                <h2>A fresh take on testing.</h2>
               </header>
               <p>
-                Writing tests is like eating your veggies: it is something everyone knows that they should do, but not everyone does. Spearmint.js provides a simple way to write tests that gives you confidence your React application will work in the way your users interact with it. 
+                Writing tests is like eating your veggies: it is something everyone knows that they
+                should do, but not everyone does. Spearmint.js provides a simple way to write tests
+                that gives you confidence your React application will work in the way your users
+                interact with it.
               </p>
               <p>
-                Spearmint provides a user-friendly GUI for developers to easily generate React tests. It dynamically converts user inputs into executable Jest test code by using DOM query selectors provided by the react-testing-library. We chose react-testing-library over Enzyme because it guides developers to focus on testing user behavior rather than testing implementation details. By leveraging react-testing-library, spearmint provides our users with more stable tests that do not break when refactoring or gives false positives due to shallow-rendering.      
+                Spearmint provides a user-friendly GUI for developers to easily generate React
+                tests. It dynamically converts user inputs into executable Jest test code by using
+                DOM query selectors provided by the react-testing-library. We chose
+                react-testing-library over Enzyme because it guides developers to focus on testing
+                user behavior rather than testing implementation details. By leveraging
+                react-testing-library, spearmint provides our users with more stable tests that do
+                not break when refactoring or gives false positives due to shallow-rendering.
               </p>
               <p>
                 <i>
-                  Fun fact: The origin of the word “debugging” comes from Grace Hopper removing a moth that was causing the Mark II Aiken Relay computer to malfunction. Did you know that moths are repelled by spearmint?
+                  Fun fact: The origin of the word “debugging” comes from Grace Hopper removing a
+                  moth that was causing the Mark II Aiken Relay computer to malfunction. Did you
+                  know that moths are repelled by spearmint?
                 </i>
               </p>
             </div>
@@ -69,89 +80,87 @@ class Homepage extends React.Component {
             </div>
 
             <div className='col-4'>
-              <span className='image fit'>
-              </span>
+              <span className='image fit' />
               <h3>Alex Park</h3>
-                <ul className='icons'>
-                  <li>
-                    <a href='https://www.linkedin.com/apark0720' className='icon alt fa-linkedin'>
-                      <span className='label'>LinkedIn</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://www.github.com/apark0720' className='icon alt fa-github'>
-                      <span className='label'>GitHub</span>
-                    </a>
-                  </li>
-                </ul>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/apark0720' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/apark0720' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className='col-4'>
-              <span className='image fit'>
-              </span>
+              <span className='image fit' />
               <h3>Johnny Lim</h3>
-                <ul className='icons'>
-                  <li>
-                    <a href='https://www.linkedin.com/lim-johnny' className='icon alt fa-linkedin'>
-                      <span className='label'>LinkedIn</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://www.github.com/johnny-lim' className='icon alt fa-github'>
-                      <span className='label'>GitHub</span>
-                    </a>
-                  </li>
-                </ul>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/lim-johnny' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/johnny-lim' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className='col-4'>
-              <span className='image fit'>
-              </span>
+              <span className='image fit' />
               <h3>Julie Beak</h3>
-                <ul className='icons'>
-                  <li>
-                    <a href='https://www.linkedin.com/juliebeak' className='icon alt fa-linkedin'>
-                      <span className='label'>LinkedIn</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://www.github.com/julicious100' className='icon alt fa-github'>
-                      <span className='label'>GitHub</span>
-                    </a>
-                  </li>
-                </ul>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/juliebeak' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/julicious100' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className='col-4'>
-              <span className='image fit'>
-              </span>
+              <span className='image fit' />
               <h3>Karen Pinilla</h3>
-                <ul className='icons'>
-                  <li>
-                    <a href='https://www.linkedin.com/in/karen-pinilla/' className='icon alt fa-linkedin'>
-                      <span className='label'>LinkedIn</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://github.com/karenpinilla' className='icon alt fa-github'>
-                      <span className='label'>GitHub</span>
-                    </a>
-                  </li>
-                </ul>
+              <ul className='icons'>
+                <li>
+                  <a
+                    href='https://www.linkedin.com/in/karen-pinilla/'
+                    className='icon alt fa-linkedin'
+                  >
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://github.com/karenpinilla' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
             </div>
             <div className='col-4'>
-              <span className='image fit'>
-              </span>
+              <span className='image fit' />
               <h3>Natlyn Phomsavanh</h3>
-                <ul className='icons'>
-                  <li>
-                    <a href='https://linkedin.com/in/natlyn-phom' className='icon alt fa-linkedin'>
-                      <span className='label'>LinkedIn</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href='https://github.com/natlynp' className='icon alt fa-github'>
-                      <span className='label'>GitHub</span>
-                    </a>
-                  </li>
-                </ul>
+              <ul className='icons'>
+                <li>
+                  <a href='https://linkedin.com/in/natlyn-phom' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://github.com/natlynp' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </section>
