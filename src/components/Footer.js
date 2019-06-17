@@ -14,7 +14,7 @@ class Footer extends React.Component {
           </p>
           <ul className='actions uniform'>
             <li>
-              <a href='mailto:spearmintjs@gmail.com' id='footer-buttons' className='button special'>
+              <a href='mailto:apark0720@gmail.com' id='footer-buttons' className='button special'>
                 Email
               </a>
             </li>
