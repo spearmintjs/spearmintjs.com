@@ -65,7 +65,7 @@ class Header extends React.Component {
               />
             </svg>
           </div>
-          <p>the secret way to "write" your React tests</p>
+          <p>a simpler way to test your React</p>
           <ul className='actions'>
             <li>
               <a href={this.downloadLink} className='button scrolly'>

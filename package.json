@@ -1,6 +1,6 @@
 {
   "name": "spearmint-web",
-  "description": "the secret way to write your React tests",
+  "description": "a simpler way to test your React",
   "version": "1.0.0",
   "author": "spearmint.js",
   "dependencies": {
