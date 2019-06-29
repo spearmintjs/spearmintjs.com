@@ -29,8 +29,6 @@ class Header extends React.Component {
       this.os = 'Windows';
     } else if (/Android/.test(userAgent)) {
       this.os = 'Android';
-    } else if (!this.os && /Linux/.test(platform)) {
-      this.os = 'Linux';
     }
   }
 
@@ -41,9 +39,6 @@ class Header extends React.Component {
     } else if (this.os === 'Windows' || this.os === 'Android') {
       this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint+v1.0.exe';
       this.downloadClassName = 'icon alt fa-windows margin-left';
-    } else if (this.os === 'Linux') {
-      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint-v1.0';
-      this.downloadClassName = 'icon alt fa-linux margin-left';
     }
   }
   render() {
