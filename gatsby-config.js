@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#02C2C3',
         theme_color: '#02C2C3',
         display: 'minimal-ui',
-        icon: '/src/assets/images/spearmint3.png',
+        icon: 'src/assets/images/favicon.ico',
       },
 
       resolve: `gatsby-plugin-google-analytics`,
