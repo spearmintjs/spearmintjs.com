@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import appDemo from '../assets/images/appDemo.gif';
 import todoTest from '../assets/images/todoTest.png';
+import favicon from '../assets/images/favicon.ico';
 
 class Homepage extends React.Component {
   render() {
@@ -10,7 +11,12 @@ class Homepage extends React.Component {
 
     return (
       <Layout>
-        <Helmet title={siteTitle} />
+        <Helmet
+          title={siteTitle}
+          link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+          ]}
+        />
 
         <section id='one' className='main style1'>
           <div className='grid-wrapper'>
