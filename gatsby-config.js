@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#02C2C3',
         theme_color: '#02C2C3',
         display: 'minimal-ui',
-        icon: 'src/assets/images/spearmint.png', // This path is relative to the root of the site.
+        icon: '/src/assets/images/spearmint3.png',
       },
 
       resolve: `gatsby-plugin-google-analytics`,
