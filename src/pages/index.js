@@ -52,7 +52,7 @@ class Homepage extends React.Component {
                 <h2>A fresh take on testing.</h2>
               </header>
               <p>
-                Writing tests is like eating your veggies: it is something everyone knows that they
+                Writing tests is like eating your veggies: it's something everyone knows that they
                 should do, but not everyone does. Spearmint.js provides a simple way to write tests
                 that gives you confidence your React application will work in the way your users
                 interact with it.
@@ -78,14 +78,11 @@ class Homepage extends React.Component {
         </section>
 
         <section id='three' className='main style1 special'>
-          <div className='grid-wrapper'>
-            <div className='col-12'>
-              <header className='major'>
-                <h2>Meet the Team!</h2>
-              </header>
-            </div>
-
-            <div className='col-4'>
+          <header className='major'>
+            <h2>Meet the Team!</h2>
+          </header>
+          <div className='flexName'>
+            <div className='col-2'>
               <span className='image fit' />
               <h3>Alex Park</h3>
               <ul className='icons'>
@@ -101,7 +98,55 @@ class Homepage extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className='col-4'>
+            <div className='col-2'>
+              <span className='image fit' />
+              <h3>Chloe Aribo</h3>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/in/chloe-aribo-639626b0/' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/HeyItsChloe' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className='col-2'>
+              <span className='image fit' />
+              <h3>Cornelius Phanthanh</h3>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/in/corneliusphanthanh/' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/Corneeltron' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className='col-2'>
+              <span className='image fit' />
+              <h3>Dave Franz</h3>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/in/davefranz/' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/dave-franz' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className='col-2'>
               <span className='image fit' />
               <h3>Johnny Lim</h3>
               <ul className='icons'>
@@ -117,7 +162,7 @@ class Homepage extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className='col-4'>
+            <div className='col-2'>
               <span className='image fit' />
               <h3>Julie Beak</h3>
               <ul className='icons'>
@@ -133,7 +178,7 @@ class Homepage extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className='col-4'>
+            <div className='col-2'>
               <span className='image fit' />
               <h3>Karen Pinilla</h3>
               <ul className='icons'>
@@ -152,7 +197,23 @@ class Homepage extends React.Component {
                 </li>
               </ul>
             </div>
-            <div className='col-4'>
+            <div className='col-2'>
+              <span className='image fit' />
+              <h3>Linda Wishingrad</h3>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/in/lindawishingrad/' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/lcwish' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className='col-2'>
               <span className='image fit' />
               <h3>Natlyn Phomsavanh</h3>
               <ul className='icons'>
@@ -163,6 +224,22 @@ class Homepage extends React.Component {
                 </li>
                 <li>
                   <a href='https://github.com/natlynp' className='icon alt fa-github'>
+                    <span className='label'>GitHub</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className='col-2'>
+              <span className='image fit' />
+              <h3>Rachel Yoo</h3>
+              <ul className='icons'>
+                <li>
+                  <a href='https://www.linkedin.com/in/rachel-yoo/' className='icon alt fa-linkedin'>
+                    <span className='label'>LinkedIn</span>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.github.com/rachethecreator' className='icon alt fa-github'>
                     <span className='label'>GitHub</span>
                   </a>
                 </li>

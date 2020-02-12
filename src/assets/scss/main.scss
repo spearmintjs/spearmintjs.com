@@ -1508,3 +1508,22 @@ button,
     @include padding(2em, 1em, (0, 0, _size(element-margin), 0));
   }
 }
+
+/* About */
+
+
+
+#three {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  .flexName {
+    display: flex;
+    flex-wrap: wrap;
+  
+    > div {
+      width: 20%;
+    }
+  }
+
+}
