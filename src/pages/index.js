@@ -140,7 +140,7 @@ class Homepage extends React.Component {
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.github.com/dave-franz' className='icon alt fa-github'>
+                  <a href='https://www.github.com/davefranz' className='icon alt fa-github'>
                     <span className='label'>GitHub</span>
                   </a>
                 </li>
