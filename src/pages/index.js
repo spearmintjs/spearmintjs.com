@@ -103,7 +103,7 @@ class Homepage extends React.Component {
               <h3>Chloe Aribo</h3>
               <ul className='icons'>
                 <li>
-                  <a href='https://www.linkedin.com/in/chloe-aribo-639626b0/' className='icon alt fa-linkedin'>
+                  <a href='https://www.linkedin.com/in/chloe-aribo/' className='icon alt fa-linkedin'>
                     <span className='label'>LinkedIn</span>
                   </a>
                 </li>
@@ -135,7 +135,7 @@ class Homepage extends React.Component {
               <h3>Dave Franz</h3>
               <ul className='icons'>
                 <li>
-                  <a href='https://www.linkedin.com/in/davefranz/' className='icon alt fa-linkedin'>
+                  <a href='https://www.linkedin.com/in/dave-franz/' className='icon alt fa-linkedin'>
                     <span className='label'>LinkedIn</span>
                   </a>
                 </li>
