@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import appDemo from '../assets/images/appDemo.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
+import addedfeatures from '../assets/images/addedfeatures1.png'
 
 class Homepage extends React.Component {
   render() {
@@ -77,7 +78,28 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id='three' className='main style1 special'>
+        <section id='three' className='main style1'>
+          <div className='grid-wrapper'>
+            <div className='col-6'>
+              <header className='major'>
+                <h2>Supports React, Redux, Hooks, Context, and Endpoint Testing</h2>
+              </header>
+              <p>
+                Spearmint isn't just for React. Write tests for your Redux actions, async functions,
+                reducers, or middleware. While you're at it, check out your hooks, context or even
+                your endpoints. Provide custom mock data and your inputs, and you're on your way.
+              </p>
+            </div>
+            <div className='col-6'>
+              <span className='image fit'>
+                <img src={addedfeatures} alt='' />
+              </span>
+            </div>
+          </div>
+        </section>
+
+
+        <section id='four' className='main style2 special'>
           <header className='major'>
             <h2>Meet the Team!</h2>
           </header>
@@ -103,7 +125,7 @@ class Homepage extends React.Component {
               <h3>Chloe Aribo</h3>
               <ul className='icons'>
                 <li>
-                  <a href='https://www.linkedin.com/in/chloe-aribo-639626b0/' className='icon alt fa-linkedin'>
+                  <a href='https://www.linkedin.com/in/chloe-aribo/' className='icon alt fa-linkedin'>
                     <span className='label'>LinkedIn</span>
                   </a>
                 </li>
@@ -140,7 +162,7 @@ class Homepage extends React.Component {
                   </a>
                 </li>
                 <li>
-                  <a href='https://www.github.com/dave-franz' className='icon alt fa-github'>
+                  <a href='https://www.github.com/davefranz' className='icon alt fa-github'>
                     <span className='label'>GitHub</span>
                   </a>
                 </li>

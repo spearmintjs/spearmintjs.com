@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubButton from 'react-github-btn';
 
 class Footer extends React.Component {
   render() {
@@ -28,6 +29,11 @@ class Footer extends React.Component {
               </a>
             </li>
           </ul>
+          <div>
+            <GitHubButton id='git-buttons' href="https://github.com/open-source-labs/spearmint" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star spearmint on GitHub">
+              Star
+            </GitHubButton>
+          </div>
         </div>
       </section>
     );

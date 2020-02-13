@@ -53,8 +53,18 @@ $raleway: 'Raleway', sans-serif;
   height: auto;
 }
 
+#added-features {
+  margin-top: 6em;
+  width: 90%;
+  height: auto;
+}
+
 #footer-buttons {
   margin-top: 1em;
+}
+
+GitHubButton {
+  padding: 10px;
 }
 
 .margin-left {
@@ -1511,9 +1521,7 @@ button,
 
 /* About */
 
-
-
-#three {
+#four {
   padding-left: 50px;
   padding-right: 50px;
 
