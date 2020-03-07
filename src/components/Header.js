@@ -5,7 +5,7 @@ class Header extends React.Component {
     super(props);
 
     this.os = '';
-    this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint+v1.0.dmg';
+    this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.dmg';
     this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
@@ -29,16 +29,21 @@ class Header extends React.Component {
       this.os = 'Windows';
     } else if (/Android/.test(userAgent)) {
       this.os = 'Android';
+    } else {
+      this.os = 'Linux';
     }
   }
 
   setDownloadLink() {
     if (this.os === 'Mac OS' || this.os === 'iOS') {
-      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint+v1.0.dmg';
+      this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.dmg';
       this.downloadClassName = 'icon alt fa-apple margin-left';
     } else if (this.os === 'Windows' || this.os === 'Android') {
-      this.downloadLink = 'https://spearmintjs.s3-us-west-1.amazonaws.com/Spearmint+v1.0.exe';
+      this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-Setup-0.2.0.exe';
       this.downloadClassName = 'icon alt fa-windows margin-left';
+    } else if (this.os === 'Linux') {
+      this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.AppImage';
+      this.downloadClassName = 'icon alt fa-linux margin-left';
     }
   }
   render() {
