@@ -4,7 +4,8 @@ import Layout from '../components/layout';
 import appDemo from '../assets/images/appDemo.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
-import addedfeatures from '../assets/images/addedfeatures1.png'
+import addedfeatures from '../assets/images/addedfeatures1.png';
+import ContributorsCard from '../components/ContributorsCard'
 
 class Homepage extends React.Component {
   render() {
@@ -14,9 +15,7 @@ class Homepage extends React.Component {
       <Layout>
         <Helmet
           title={siteTitle}
-          link={[
-            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-          ]}
+          link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
         />
 
         <section id='one' className='main style1'>
@@ -59,13 +58,13 @@ class Homepage extends React.Component {
                 interact with it.
               </p>
               <p>
-                Spearmint provides a user-friendly GUI for developers to easily generate React
-                tests. It dynamically converts user inputs into executable Jest test code by using
-                DOM query selectors provided by the react-testing-library. We chose
-                react-testing-library over Enzyme because it guides developers to focus on testing
-                user behavior rather than testing implementation details. By leveraging
-                react-testing-library, spearmint provides our users with more stable tests that do
-                not break when refactoring or gives false positives due to shallow-rendering.
+                Spearmint provides a user-friendly GUI for developers to easily generate tests. It
+                dynamically converts user inputs into executable Jest test code by using DOM query
+                selectors provided by the react-testing-library. We chose react-testing-library over
+                Enzyme because it guides developers to focus on testing user behavior rather than
+                testing implementation details. By leveraging react-testing-library, spearmint
+                provides our users with more stable tests that do not break when refactoring or
+                gives false positives due to shallow-rendering.
               </p>
               <p>
                 <i>
@@ -82,12 +81,13 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6'>
               <header className='major'>
-                <h2>Supports React, Redux, Hooks, Context, and Endpoint Testing</h2>
+                <h2>Supports React, Redux, Hooks, Context, Puppeteer, and Endpoint Testing</h2>
               </header>
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
                 reducers, or middleware. While you're at it, check out your hooks, context or even
-                your endpoints. Provide custom mock data and your inputs, and you're on your way.
+                your endpoints. If your interested in performance, utilize the Puppeteer
+                module. Provide custom mock data and your inputs, and you're on your way.
               </p>
             </div>
             <div className='col-6'>
@@ -98,175 +98,92 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-
         <section id='four' className='main style2 special'>
           <header className='major'>
             <h2>Meet the Team!</h2>
           </header>
           <div className='flexName'>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Alex Park</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/apark0720' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/apark0720' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Chloe Aribo</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/chloe-aribo/' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/HeyItsChloe' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Cornelius Phanthanh</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/corneliusphanthanh/' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/Corneeltron' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Dave Franz</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/dave-franz/' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/davefranz' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Johnny Lim</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/lim-johnny' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/johnny-lim' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Julie Beak</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/juliebeak' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/julicious100' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Karen Pinilla</h3>
-              <ul className='icons'>
-                <li>
-                  <a
-                    href='https://www.linkedin.com/in/karen-pinilla/'
-                    className='icon alt fa-linkedin'
-                  >
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://github.com/karenpinilla' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Linda Wishingrad</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/lindawishingrad/' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/lcwish' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Natlyn Phomsavanh</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://linkedin.com/in/natlyn-phom' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://github.com/natlynp' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className='col-2'>
-              <span className='image fit' />
-              <h3>Rachel Yoo</h3>
-              <ul className='icons'>
-                <li>
-                  <a href='https://www.linkedin.com/in/rachel-yoo/' className='icon alt fa-linkedin'>
-                    <span className='label'>LinkedIn</span>
-                  </a>
-                </li>
-                <li>
-                  <a href='https://www.github.com/rachethecreator' className='icon alt fa-github'>
-                    <span className='label'>GitHub</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <ContributorsCard
+              name='Alex Park'
+              linkedIn='https://www.linkedin.com/in/apark0720'
+              github='https://www.github.com/apark0720'
+            />
+            <ContributorsCard
+              name='Charlie Maloney'
+              linkedIn='https://www.linkedin.com/in/charlie-maloney/'
+              github='https://github.com/charlie-maloney'
+            />
+            <ContributorsCard
+              name='Chloe Aribo'
+              linkedIn='https://www.linkedin.com/in/chloe-aribo/'
+              github='https://www.github.com/HeyItsChloe'
+            />
+            <ContributorsCard 
+              name='Cornelius Phanthanh'
+              linkedIn='https://www.linkedin.com/in/corneliusphanthanh/'
+              github='https://www.github.com/Corneeltron' 
+            />
+
+            <ContributorsCard 
+              name='Dave Franz'
+              linkedIn='https://www.linkedin.com/in/dave-franz/'
+              github='https://www.github.com/davefranz'
+            />
+
+            <ContributorsCard 
+              name='Johnny Lim'
+              linkedIn='https://www.linkedin.com/in/lim-johnny'
+              github='https://www.github.com/johnny-lim'
+            />
+
+            <ContributorsCard 
+              name='Julie Beak'
+              linkedIn='https://www.linkedin.com/in/juliebeak' 
+              github='https://www.github.com/julicious100'
+            />
+
+            <ContributorsCard 
+              name='Karen Pinilla'
+              linkedIn='https://www.linkedin.com/in/karen-pinilla/'
+              github='https://github.com/karenpinilla'
+            />
+
+            <ContributorsCard 
+              name='Linda Wishingrad'
+              linkedIn='https://www.linkedin.com/in/lindawishingrad/'
+              github='https://www.github.com/lcwish'
+            />
+
+            <ContributorsCard 
+              name='Mike Coker'
+              linkedIn='https://www.linkedin.com/in/mike-coker/'
+              github='https://github.com/mbcoker'
+            />
+
+            <ContributorsCard 
+              name='Natlyn Phomsavanh'
+              linkedIn='https://linkedin.com/in/natlyn-phom'
+              github='https://github.com/natlynp'
+            />
+
+            <ContributorsCard 
+              name='Rachel Yoo'
+              linkedIn='https://www.linkedin.com/in/rachel-yoo/'
+              github='https://www.github.com/rachethecreator'
+            />
+
+            <ContributorsCard 
+              name='Sieun Jang'
+              linkedIn='https://www.linkedin.com/in/sieunj/'
+              github='https://github.com/sieunjang'
+            />
+
+            <ContributorsCard 
+              name='Tristen Wastell'
+              linkedIn=''
+              github=''
+            />
+          
           </div>
         </section>
       </Layout>
