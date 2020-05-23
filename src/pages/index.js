@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import appDemo from '../assets/images/appDemo.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
-import addedfeatures from '../assets/images/addedfeatures1.png';
+import addedfeatures from '../assets/images/addedfeatures.png';
 import ContributorsCard from '../components/ContributorsCard'
 
 class Homepage extends React.Component {
