@@ -23,9 +23,10 @@ class Homepage extends React.Component {
             <div className='col-6 center'>
               <header className='major'>
                 <h2>
-                  Use spearmint to create tests. 
-                  <br />
-                  Zero coding required. 
+                  Use spearmint to create tests.  
+                </h2>
+                <h2>
+                  Zero coding required.
                 </h2>
               </header>
               <p>
