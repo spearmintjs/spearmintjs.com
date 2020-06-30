@@ -24,7 +24,7 @@ class Homepage extends React.Component {
               <header className='major'>
                 <h2>
                   Use spearmint to create tests. 
-                  <br />
+                  <br>
                   Zero coding required. 
                 </h2>
               </header>
