@@ -23,14 +23,14 @@ class Homepage extends React.Component {
             <div className='col-6 center'>
               <header className='major'>
                 <h2>
-                  Use spearmint to create tests.
+                  Use spearmint to create tests. 
                   <br />
-                  Zero coding required.
+                  Zero coding required. 
                 </h2>
               </header>
               <p>
                 Easily create tests using our UI and refer to the browser, codebase, and docs all in
-                one place. Once you are done you can save an executable Jest test file in your
+                one place. Once you're done you can save an executable Jest test file in your
                 __tests__ folder.
               </p>
             </div>
@@ -81,7 +81,7 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6'>
               <header className='major'>
-                <h2>Supports React, Redux, Hooks, Context, Puppeteer, and Endpoint Testing</h2>
+                <h2>Supports React, Redux, Hooks, Context, Puppeteer, and Endpoint Testing.</h2>
               </header>
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
