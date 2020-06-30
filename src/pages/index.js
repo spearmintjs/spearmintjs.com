@@ -86,7 +86,7 @@ class Homepage extends React.Component {
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
                 reducers, or middleware. While you're at it, check out your hooks, context or even
-                your endpoints. If your interested in performance, utilize the Puppeteer
+                your endpoints. If you're interested in performance, utilize the Puppeteer
                 module. Provide custom mock data and your inputs, and you're on your way.
               </p>
             </div>
