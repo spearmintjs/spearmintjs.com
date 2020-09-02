@@ -2,4 +2,4 @@
 
 Visit spearmintjs.com to download our test scripting GUI.
 
-![image]('./src/assets/images/spearmintjs_README.png')
+![image](https://github.com/nicolaspita/spearmintjs.com/blob/master/assets/images/spearmintjs_README.png)
