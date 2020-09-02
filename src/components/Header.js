@@ -5,7 +5,8 @@ class Header extends React.Component {
     super(props);
 
     this.os = '';
-    this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.dmg';
+    this.downloadLink =
+      'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.dmg';
     this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
@@ -36,13 +37,16 @@ class Header extends React.Component {
 
   setDownloadLink() {
     if (this.os === 'Mac OS' || this.os === 'iOS') {
-      this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.3.0/Spearmint-0.3.0.dmg';
+      this.downloadLink =
+        'https://github.com/open-source-labs/spearmint/releases/download/v0.3.0/Spearmint-0.3.0.dmg';
       this.downloadClassName = 'icon alt fa-apple margin-left';
     } else if (this.os === 'Windows' || this.os === 'Android') {
-      this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.3.0/Spearmint-0.3.0.exe';
+      this.downloadLink =
+        'https://github.com/open-source-labs/spearmint/releases/download/v0.3.0/Spearmint-0.3.0.exe';
       this.downloadClassName = 'icon alt fa-windows margin-left';
     } else if (this.os === 'Linux') {
-      this.downloadLink = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.AppImage';
+      this.downloadLink =
+        'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.AppImage';
       this.downloadClassName = 'icon alt fa-linux margin-left';
     }
   }
@@ -65,7 +69,7 @@ class Header extends React.Component {
               />
             </svg>
           </div>
-          <p>a simpler way to test your react</p>
+          <p>a simpler way to test your react app</p>
           <ul className='actions'>
             <li>
               <a href={this.downloadLink} className='button scrolly'>

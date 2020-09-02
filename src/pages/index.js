@@ -5,7 +5,7 @@ import appDemo from '../assets/images/appDemo.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/addedfeatures.png';
-import ContributorsCard from '../components/ContributorsCard'
+import ContributorsCard from '../components/ContributorsCard';
 
 class Homepage extends React.Component {
   render() {
@@ -22,12 +22,8 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6 center'>
               <header className='major'>
-                <h2>
-                  Use spearmint to create tests.  
-                </h2>
-                <h2>
-                  Zero coding required.
-                </h2>
+                <h2>Use spearmint to create tests.</h2>
+                <h2>Zero coding required.</h2>
               </header>
               <p>
                 Easily create tests using our UI and refer to the browser, codebase, and docs all in
@@ -87,8 +83,8 @@ class Homepage extends React.Component {
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
                 reducers, or middleware. While you're at it, check out your hooks, context or even
-                your endpoints. If you're interested in performance, utilize the Puppeteer
-                module. Provide custom mock data and your inputs, and you're on your way.
+                your endpoints. If you're interested in performance, utilize the Puppeteer module.
+                Provide custom mock data and inputs, and you're on your way.
               </p>
             </div>
             <div className='col-6'>
@@ -109,82 +105,110 @@ class Homepage extends React.Component {
               linkedIn='https://www.linkedin.com/in/apark0720'
               github='https://www.github.com/apark0720'
             />
+
+            <ContributorsCard
+              name='Ben Kwak'
+              linkedIn='https://www.linkedin.com/in/ben-kwak/'
+              github='https://github.com/bkwak'
+            />
+
             <ContributorsCard
               name='Charlie Maloney'
               linkedIn='https://www.linkedin.com/in/charlie-maloney/'
               github='https://github.com/charlie-maloney'
             />
+
             <ContributorsCard
               name='Chloe Aribo'
               linkedIn='https://www.linkedin.com/in/chloe-aribo/'
               github='https://www.github.com/HeyItsChloe'
             />
-            <ContributorsCard 
+
+            <ContributorsCard
               name='Cornelius Phanthanh'
               linkedIn='https://www.linkedin.com/in/corneliusphanthanh/'
-              github='https://www.github.com/Corneeltron' 
+              github='https://www.github.com/Corneeltron'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
               name='Dave Franz'
               linkedIn='https://www.linkedin.com/in/dave-franz/'
               github='https://www.github.com/davefranz'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
+              name='Evan Berghoff'
+              linkedIn='https://www.linkedin.com/in/evanberghoff/'
+              github='https://github.com/Berghoer'
+            />
+
+            <ContributorsCard
               name='Johnny Lim'
               linkedIn='https://www.linkedin.com/in/lim-johnny'
               github='https://www.github.com/johnny-lim'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
               name='Julie Beak'
-              linkedIn='https://www.linkedin.com/in/juliebeak' 
+              linkedIn='https://www.linkedin.com/in/juliebeak'
               github='https://www.github.com/julicious100'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
               name='Karen Pinilla'
               linkedIn='https://www.linkedin.com/in/karen-pinilla/'
               github='https://github.com/karenpinilla'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
               name='Linda Wishingrad'
               linkedIn='https://www.linkedin.com/in/lindawishingrad/'
               github='https://www.github.com/lcwish'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
+              name='Luis Lo'
+              linkedIn='https://www.linkedin.com/in/luis-lo/'
+              github='https://github.com/Luis-KM-Lo'
+            />
+
+            <ContributorsCard
               name='Mike Coker'
               linkedIn='https://www.linkedin.com/in/mike-coker/'
               github='https://github.com/mbcoker'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
               name='Natlyn Phomsavanh'
               linkedIn='https://linkedin.com/in/natlyn-phom'
               github='https://github.com/natlynp'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
+              name='Nicolas Pita'
+              linkedIn='https://www.linkedin.com/in/nicolaspita/'
+              github='https://github.com/nicolaspita'
+            />
+
+            <ContributorsCard
               name='Rachel Yoo'
               linkedIn='https://www.linkedin.com/in/rachel-yoo/'
               github='https://www.github.com/rachethecreator'
             />
 
-            <ContributorsCard 
+            <ContributorsCard
+              name='Sean Haverstock'
+              linkedIn='https://www.linkedin.com/in/sean-haverstock/'
+              github='https://github.com/Sean-Haverstock'
+            />
+
+            <ContributorsCard
               name='Sieun Jang'
               linkedIn='https://www.linkedin.com/in/sieunj/'
               github='https://github.com/sieunjang'
             />
 
-            <ContributorsCard 
-              name='Tristen Wastell'
-              linkedIn=''
-              github=''
-            />
-          
+            <ContributorsCard name='Tristen Wastell' linkedIn='' github='' />
           </div>
         </section>
       </Layout>
