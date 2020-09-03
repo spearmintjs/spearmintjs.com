@@ -6,7 +6,8 @@ class Header extends React.Component {
 
     this.os = '';
     this.downloadLink =
-      'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.dmg';
+      'https://github.com/open-source-labs/spearmint/releases/download/v0.4.0/Spearmint-0.4.0.dmg';
+    // this is what needs to be updated to link the correct release of the app
     this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
@@ -38,11 +39,11 @@ class Header extends React.Component {
   setDownloadLink() {
     if (this.os === 'Mac OS' || this.os === 'iOS') {
       this.downloadLink =
-        'https://github.com/open-source-labs/spearmint/releases/download/v0.3.0/Spearmint-0.3.0.dmg';
+        'https://github.com/open-source-labs/spearmint/releases/download/v0.4.0/Spearmint-0.4.0.dmg';
       this.downloadClassName = 'icon alt fa-apple margin-left';
     } else if (this.os === 'Windows' || this.os === 'Android') {
       this.downloadLink =
-        'https://github.com/open-source-labs/spearmint/releases/download/v0.3.0/Spearmint-0.3.0.exe';
+        'https://github.com/open-source-labs/spearmint/releases/download/v0.4.0/Spearmint-0.4.0.exe';
       this.downloadClassName = 'icon alt fa-windows margin-left';
     } else if (this.os === 'Linux') {
       this.downloadLink =
