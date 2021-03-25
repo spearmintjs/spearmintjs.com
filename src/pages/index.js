@@ -16,8 +16,9 @@ class Homepage extends React.Component {
         <Helmet
           title={siteTitle}
           link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
-        />
-
+        >
+          <html lang="en" amp />
+        </ Helmet>
         <section id='one' className='main style1'>
           <div className='grid-wrapper'>
             <div className='col-6 center'>
