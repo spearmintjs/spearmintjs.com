@@ -1,6 +1,6 @@
 {
   "name": "spearmint-web",
-  "description": "a simpler way to test your React",
+  "description": "landing page for spearmint",
   "version": "1.0.0",
   "author": "spearmint.js",
   "dependencies": {
@@ -44,7 +44,12 @@
     "luis lo",
     "sean haverstock",
     "ben kwak",
-    "nicolas pita"
+    "nicolas pita",
+    "sharon zhu",
+    "gabriel christo",
+    "annie shin",
+    "tolan thornton",
+    "alfred sta. iglesia"
   ],
   "license": "MIT",
   "scripts": {
