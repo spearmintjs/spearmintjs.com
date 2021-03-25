@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'spearmint.js',
     author: 'spearmint',
-    description: 'a simpler way to test your React',
+    description: 'testing, simplified',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
