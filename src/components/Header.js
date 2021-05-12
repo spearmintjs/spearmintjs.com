@@ -53,7 +53,7 @@ class Header extends React.Component {
   //     this.downloadClassName = 'icon alt fa-linux margin-left';
   //   }
   // }
-  
+
   render() {
     console.log(this.downloadLink);
     return (
@@ -85,7 +85,7 @@ class Header extends React.Component {
                 <i className={'icon alt fa-windows margin-left'} />
               </a>
               <a href={this.downloadLink} className='button scrolly'>
-                Linus (.deb)
+                Linux (.deb)
                 <i className={'icon alt fa-linux margin-left'} />
               </a>
             </li>
