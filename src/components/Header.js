@@ -5,9 +5,11 @@ class Header extends React.Component {
     super(props);
 
     this.os = '';
-    this.downloadLink =
-      'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.dmg';
     // this is what needs to be updated to link the correct release of the app
+    this.macDownload =
+      'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.dmg';
+    this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.exe' ;
+    this.linusDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.AppImage';
     this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
@@ -16,41 +18,42 @@ class Header extends React.Component {
     this.setDownloadLink();
   }
 
-  getOS() {
-    var userAgent = window.navigator.userAgent,
-      platform = window.navigator.platform,
-      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
-      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
-      iosPlatforms = ['iPhone', 'iPad', 'iPod'];
+  // getOS() {
+  //   var userAgent = window.navigator.userAgent,
+  //     platform = window.navigator.platform,
+  //     macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+  //     windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+  //     iosPlatforms = ['iPhone', 'iPad', 'iPod'];
 
-    if (macosPlatforms.indexOf(platform) !== -1) {
-      this.os = 'Mac OS';
-    } else if (iosPlatforms.indexOf(platform) !== -1) {
-      this.os = 'iOS';
-    } else if (windowsPlatforms.indexOf(platform) !== -1) {
-      this.os = 'Windows';
-    } else if (/Android/.test(userAgent)) {
-      this.os = 'Android';
-    } else {
-      this.os = 'Linux';
-    }
-  }
+  //   if (macosPlatforms.indexOf(platform) !== -1) {
+  //     this.os = 'Mac OS';
+  //   } else if (iosPlatforms.indexOf(platform) !== -1) {
+  //     this.os = 'iOS';
+  //   } else if (windowsPlatforms.indexOf(platform) !== -1) {
+  //     this.os = 'Windows';
+  //   } else if (/Android/.test(userAgent)) {
+  //     this.os = 'Android';
+  //   } else {
+  //     this.os = 'Linux';
+  //   }
+  // }
 
-  setDownloadLink() {
-    if (this.os === 'Mac OS' || this.os === 'iOS') {
-      this.downloadLink =
-        'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.dmg';
-      this.downloadClassName = 'icon alt fa-apple margin-left';
-    } else if (this.os === 'Windows' || this.os === 'Android') {
-      this.downloadLink =
-        'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.exe';
-      this.downloadClassName = 'icon alt fa-windows margin-left';
-    } else if (this.os === 'Linux') {
-      this.downloadLink =
-        'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.AppImage';
-      this.downloadClassName = 'icon alt fa-linux margin-left';
-    }
-  }
+  // setDownloadLink() {
+  //   if (this.os === 'Mac OS' || this.os === 'iOS') {
+  //     this.downloadLink =
+  //       'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.dmg';
+  //     this.downloadClassName = 'icon alt fa-apple margin-left';
+  //   } else if (this.os === 'Windows' || this.os === 'Android') {
+  //     this.downloadLink =
+  //       'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.exe';
+  //     this.downloadClassName = 'icon alt fa-windows margin-left';
+  //   } else if (this.os === 'Linux') {
+  //     this.downloadLink =
+  //       'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.AppImage';
+  //     this.downloadClassName = 'icon alt fa-linux margin-left';
+  //   }
+  // }
+  
   render() {
     console.log(this.downloadLink);
     return (
@@ -74,8 +77,16 @@ class Header extends React.Component {
           <ul className='actions'>
             <li>
               <a href={this.downloadLink} className='button scrolly'>
-                download
-                <i className={this.downloadClassName} />
+                Mac (.dmg)
+                <i className={'icon alt fa-apple margin-left'} />
+              </a>
+              <a href={this.downloadLink} className='button scrolly'>
+                Windows (.exe)
+                <i className={'icon alt fa-windows margin-left'} />
+              </a>
+              <a href={this.downloadLink} className='button scrolly'>
+                Linus (.deb)
+                <i className={'icon alt fa-linux margin-left'} />
               </a>
             </li>
           </ul>
