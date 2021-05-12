@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import appDemo from '../assets/images/spearmint.gif';
+import accessibilityLens from '../assets/images/accessibilityLens.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/testoptions.gif';
@@ -23,13 +24,14 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6 center'>
               <header className='major'>
-                <h2>Use spearmint to create tests.</h2>
+                <h2>Create and run tests in Spearmint.</h2>
                 <h2>Zero coding required.</h2>
               </header>
               <p>
-                Easily create tests using our UI and refer to the browser, codebase, and docs all in
-                one place. Once you're done you can save an executable Jest test file in your
-                __tests__ folder.
+                Easily create, and run tests intuitively using Spearmint. Access your app's file directory and codebase while enjoying
+                a fully functional terminal and browser in-app.
+                
+                When you're ready to continue developing your application, your Jest test files will be in your app's __tests__ folder.
               </p>
             </div>
             <div className='col-6'>
@@ -98,7 +100,26 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id='four' className='main style2 special'>
+        <section id='four' className='main style2'>
+          <div className='grid-wrapper'>
+            <div className='col-6'>
+              <img id='accessibility-lens' src={accessibilityLens} alt='Accessibility Lens App Demo'/>
+            </div>
+            <div className='col-6'>
+              <header className='major'>
+                <h2>Accessibility Lens.</h2>
+                <h2>See your app from different perspectives</h2>
+              </header>
+              <p>
+                Beyond testing your app for accessibility, 
+                Browser view's "Accessibility Lens" allow you to test out your application's usability as if you didn't have
+                access to a mouse, or have a color/hearing mismatch.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id='four' className='main style1 special'>
           <header className='major'>
             <h2>Meet the Team!</h2>
           </header>
@@ -244,6 +265,7 @@ class Homepage extends React.Component {
             />
           </div>
         </section>
+            
       </Layout>
     );
   }

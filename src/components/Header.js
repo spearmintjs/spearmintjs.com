@@ -6,16 +6,15 @@ class Header extends React.Component {
 
     this.os = '';
     // this is what needs to be updated to link the correct release of the app
-    this.macDownload =
-      'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.dmg';
-    this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.5.0/Spearmint-0.5.0.exe' ;
-    this.linusDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.2.0/Spearmint-0.2.0.AppImage';
-    this.downloadClassName = 'icon alt fa-apple margin-left';
+    this.macDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.6.0/Spearmint-0.6.0.dmg';
+    this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.6.0/Spearmint-0.6.0.exe' ;
+    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.6.0/Spearmint-0.6.0.dev';
+    // this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
   componentDidMount() {
-    this.getOS();
-    this.setDownloadLink();
+    // this.getOS();
+    // this.setDownloadLink();
   }
 
   // getOS() {
@@ -76,15 +75,15 @@ class Header extends React.Component {
           <p>testing, simplified</p>
           <ul className='actions'>
             <li>
-              <a href={this.downloadLink} className='button scrolly'>
+              <a href={this.macDownload} className='button scrolly'>
                 Mac (.dmg)
                 <i className={'icon alt fa-apple margin-left'} />
               </a>
-              <a href={this.downloadLink} className='button scrolly'>
+              <a href={this.windowDownload} className='button scrolly'>
                 Windows (.exe)
                 <i className={'icon alt fa-windows margin-left'} />
               </a>
-              <a href={this.downloadLink} className='button scrolly'>
+              <a href={this.linuxDownload} className='button scrolly'>
                 Linux (.deb)
                 <i className={'icon alt fa-linux margin-left'} />
               </a>
