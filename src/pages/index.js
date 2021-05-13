@@ -150,6 +150,12 @@ class Homepage extends React.Component {
               linkedIn='https://www.linkedin.com/in/dave-franz/'
               github='https://www.github.com/davefranz'
             />
+            
+            <ContributorsCard
+              name={`Dieu 'Dieunity' Huynh`}
+              linkedIn='https://www.linkedin.com/in/dieu-huynh/'
+              github='https://www.github.com/dieunity'
+            />
 
             <ContributorsCard
               name='Evan Berghoff'
@@ -174,6 +180,12 @@ class Homepage extends React.Component {
               linkedIn='https://www.linkedin.com/in/juliebeak'
               github='https://www.github.com/julicious100'
             />
+            
+            <ContributorsCard
+              name='Justin Baik'
+              linkedIn='https://www.linkedin.com/in/justin-baik/'
+              github='https://github.com/JIB3377'
+            />
 
             <ContributorsCard
               name='Karen Pinilla'
@@ -191,6 +203,18 @@ class Homepage extends React.Component {
               name='Luis Lo'
               linkedIn='https://www.linkedin.com/in/luis-lo/'
               github='https://github.com/Luis-KM-Lo'
+            />
+
+            <ContributorsCard
+              name= {`Mahmoud 'Mo' Hmaidi`}
+              linkedIn='http://linkedin.com/in/mahmoud-hmaidi-mo'
+              github='https://github.com/mhmaidi789'
+            />
+
+            <ContributorsCard
+              name='Max Weisenberger'
+              linkedIn='https://www.linkedin.com/in/maxweisen/'
+              github='https://github.com/MaxWeisen'
             />
 
             <ContributorsCard
