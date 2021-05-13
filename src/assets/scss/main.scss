@@ -56,7 +56,6 @@ $raleway: 'Raleway', sans-serif;
 #accessibility-lens{
   margin-top: 2em;
   width: 95%;
-  // height: auto;
 }
 
 #added-features {
@@ -708,7 +707,6 @@ ul {
       
       a {
         margin: 3px;
-
       }
 
       &:last-child {
@@ -726,7 +724,6 @@ ul {
       li {
         display: block;
         padding: (_size(element-margin) * 0.5) 0 0 0;
-
 
         &:first-child {
           padding-top: 0;
