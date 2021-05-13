@@ -8,7 +8,7 @@ class Header extends React.Component {
     // this is what needs to be updated to link the correct release of the app
     this.macDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.6.0/Spearmint-0.6.0.dmg';
     this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.6.0/Spearmint-0.6.0.exe' ;
-    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.6.0/Spearmint-0.6.0.dev';
+    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.6.0/Spearmint-0.6.0.amd64.deb';
     // this.downloadClassName = 'icon alt fa-apple margin-left';
   }
 
