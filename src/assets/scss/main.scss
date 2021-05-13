@@ -53,6 +53,11 @@ $raleway: 'Raleway', sans-serif;
   height: auto;
 }
 
+#accessibility-lens{
+  margin-top: 2em;
+  width: 95%;
+}
+
 #added-features {
   margin-top: 6em;
   width: 90%;
@@ -699,6 +704,10 @@ ul {
       display: inline-block;
       padding: 0 (_size(element-margin) * 0.5) 0 0;
       vertical-align: middle;
+      
+      a {
+        margin: 3px;
+      }
 
       &:last-child {
         padding-right: 0;
