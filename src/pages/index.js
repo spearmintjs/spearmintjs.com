@@ -256,7 +256,7 @@ class Homepage extends React.Component {
             />
 
            <ContributorsCard
-            name='Max Bromat'
+            name='Max Bromet'
             linkedIn='https://www.linkedin.com/in/max-bromet-2607aa211/'
             github='https://github.com/mbromet'
             /> 
