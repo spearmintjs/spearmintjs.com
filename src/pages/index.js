@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import appDemo from '../assets/images/spearmint.gif';
 import accessibilityLens from '../assets/images/accessibilityLens.gif';
+import saveAndGetTestDemo from '../assets/images/saveAndGetTestDemo.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/testoptions.gif';
@@ -28,7 +29,7 @@ class Homepage extends React.Component {
                 <h2>Zero coding required.</h2>
               </header>
               <p>
-                Easily create, and run tests intuitively using Spearmint. Access your app's file directory and codebase while enjoying
+                Easily create, save, and run tests intuitively using Spearmint. Access your app's file directory and codebase while enjoying
                 a fully functional terminal and browser in-app.
                 
                 When you're ready to continue developing your application, your Jest test files will be in your app's __tests__ folder.
@@ -86,7 +87,7 @@ class Homepage extends React.Component {
                 Provide custom mock data and inputs, and you're on your way.
               </p>
               <p>
-                The latest version of Spearmint has a specific focus on accessibility. The
+                The latest version of Spearmint has a specific focus on accessibility and saving tests. The
                 <a href= 'https://github.com/dequelabs/axe-core'> Axe-Core </a> 
                 library has been utilized to ensure your application is up to snuff for various 
                 accessibility standards and allow an internet for all. 
@@ -119,7 +120,23 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id='four' className='main style1 special'>
+        <section id='five' className='main style1'>
+          <div className='grid-wrapper'>
+              <div className='col-6'>
+                <header className='major'>
+                  <h2>Test Saving.</h2>
+              </header>
+              <p>
+              Thanks to the new login feature, developers can now save their test templates. This allows for a quick render of frequently desired test clusters. Simply click the “Save Test” button, name the test template you have created and you’re good to go. To reload the test template click the “Get Test” button and select the test by the name given. This makes recalling tests much easier than having to re-build the tests like in previous versions. 
+              </p>
+            </div>
+            <div className='col-6'>
+              <img id='save-and-get-test' src={saveAndGetTestDemo} alt='save and get test demo'/>
+            </div>
+          </div>
+        </section>
+
+        <section id='four' className='main style2 special'>
           <header className='major'>
             <h2>Meet the Team!</h2>
           </header>
@@ -178,6 +195,12 @@ class Homepage extends React.Component {
               github='https://www.github.com/dieunity'
             />
 
+            <ContributorsCard 
+             name='Eric Park' 
+             linkedIn='https://www.linkedin.com/in/ericgpark/' 
+             github='https://github.com/ericgpark' 
+            />
+
             <ContributorsCard
               name='Evan Berghoff'
               linkedIn='https://www.linkedin.com/in/evanberghoff/'
@@ -232,6 +255,12 @@ class Homepage extends React.Component {
               github='https://github.com/mhmaidi789'
             />
 
+           <ContributorsCard
+            name='Max Bromat'
+            linkedIn='https://www.linkedin.com/in/max-bromet-2607aa211/'
+            github='https://github.com/mbromet'
+            /> 
+
             <ContributorsCard
               name='Max Weisenberger'
               linkedIn='https://www.linkedin.com/in/maxweisen/'
@@ -269,6 +298,12 @@ class Homepage extends React.Component {
             />
 
             <ContributorsCard
+            name='Sean Yoo'
+            linkedIn='https://www.linkedin.com/in/seanyyoo/'
+            github='https://github.com/seanyyoo'
+            />
+
+            <ContributorsCard
               name='Sharon Zhu'
               linkedIn='https://www.linkedin.com/in/sharonzhu/'
               github='https://github.com/sharon-zhu'
@@ -287,6 +322,13 @@ class Homepage extends React.Component {
               linkedIn='https://www.linkedin.com/in/tolanthornton/'
               github='https://github.com/taoantaoan'
             />
+
+            <ContributorsCard
+            name='Tyler Martinez'
+            linkedIn='https://www.linkedin.com/in/tylerjamesonmartinez/'
+            github='https://github.com/tytyjameson'
+            />
+
           </div>
         </section>
             

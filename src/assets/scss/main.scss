@@ -1542,5 +1542,16 @@ button,
       width: 20%;
     }
   }
+}
 
+#five{
+  padding-left: 50px;
+  padding-right: 50px;
+  .flexName {
+    display:flex;
+    flex-wrap: wrap;
+    >div {
+      width: 20%
+    }
+  }
 }
