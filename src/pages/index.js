@@ -142,6 +142,12 @@ class Homepage extends React.Component {
           </header>
           <div className='flexName'>
             <ContributorsCard
+              name='Alan Richardson'
+              linkedIn='https://www.linkedin.com/in/arichardson7'
+              github='https://github.com/alanrichardson7'
+            />
+
+            <ContributorsCard
               name='Alex Park'
               linkedIn='https://www.linkedin.com/in/apark0720'
               github='https://www.github.com/apark0720'
@@ -220,6 +226,12 @@ class Homepage extends React.Component {
             />
 
             <ContributorsCard
+              name='Joseph Nagy'
+              linkedIn='https://www.linkedin.com/in/josephmnagy'
+              github='https://github.com/Josephnagy'
+            />
+
+            <ContributorsCard
               name='Julie Beak'
               linkedIn='https://www.linkedin.com/in/juliebeak'
               github='https://www.github.com/julicious100'
@@ -286,6 +298,12 @@ class Homepage extends React.Component {
             />
 
             <ContributorsCard
+              name='Owen Eldridge'
+              linkedIn='https://www.linkedin.com/in/owen-eldridge'
+              github='https://github.com/oweneldridge'
+            />
+
+            <ContributorsCard
               name='Rachel Yoo'
               linkedIn='https://www.linkedin.com/in/rachel-yoo/'
               github='https://www.github.com/rachethecreator'
@@ -313,6 +331,12 @@ class Homepage extends React.Component {
               name='Sieun Jang'
               linkedIn='https://www.linkedin.com/in/sieunj/'
               github='https://github.com/sieunjang'
+            />
+
+            <ContributorsCard
+              name='Terence Petersen'
+              linkedIn='https://www.linkedin.com/in/terence-petersen'
+              github='https://github.com/TERR-inss'
             />
 
             <ContributorsCard name='Tristen Wastell' linkedIn='' github='' />
