@@ -84,11 +84,10 @@ class Homepage extends React.Component {
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
                 reducers, or middleware. While you're at it, check out your hooks, context or even
                 your endpoints. If you're interested in performance, utilize the Puppeteer module.
-                Provide custom mock data and inputs, and you're on your way. Spearmint also has 
-                a specific focus on accessibility and saving tests. The
-                <a href='https://github.com/dequelabs/axe-core'> Axe-Core </a>
-                library has been utilized to ensure your application is up to snuff for various
-                accessibility standards and allow an internet for all. 
+                Provide custom mock data and inputs, and you're on your way. You can also leverage the
+                <a href='https://github.com/dequelabs/axe-core'> Axe-Core </a> testing library
+                to verify that your application meets various 
+                accessibility standards and guarantees an internet for all. 
               </p>
               <p>
                 The latest version of Spearmint has a specific focus on security. The
