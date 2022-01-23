@@ -1555,3 +1555,14 @@ button,
     }
   }
 }
+
+.contribs {
+  font-size: 0.75em;
+  display: grid;
+  grid-gap: 0 2.25em;
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0 auto;
+  width: 90%;
+  margin-top: -40px;
+  margin-bottom: 45px;
+}

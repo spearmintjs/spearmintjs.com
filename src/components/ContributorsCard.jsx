@@ -6,12 +6,12 @@ const ContributorsCard = ({name, linkedIn, github}) => {
       <h3>{name}</h3>
       <ul className='icons'>
         <li>
-          <a href={linkedIn} className='icon alt fa-linkedin'>
+          <a href={linkedIn} className='icon alt fa-linkedin' target="_blank">
             <span className='label'>LinkedIn</span>
           </a>
         </li>
         <li>
-          <a href={github} className='icon alt fa-github'>
+          <a href={github} className='icon alt fa-github' target="_blank">
             <span className='label'>GitHub</span>
           </a>
         </li>
