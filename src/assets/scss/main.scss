@@ -1224,6 +1224,24 @@ button,
     }
   }
 
+  /* Image */
+
+  .image {
+    &.fit {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  img {
+    &#save-and-get-test {
+      width: 100%;
+    }
+  }
+
   /* List */
 
   ul {
