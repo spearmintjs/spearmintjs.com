@@ -1324,6 +1324,12 @@ button,
     @include padding(5em, 3em, (0, 0, _size(element-margin), 0));
   }
 
+  /* Contributors */
+
+  .contribs {
+    grid-template-columns: repeat(6, 1fr)!important;
+  }
+
   /* One */
 
   #one {
