@@ -1224,6 +1224,24 @@ button,
     }
   }
 
+  /* Image */
+
+  .image {
+    &.fit {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  img {
+    &#save-and-get-test {
+      width: 100%;
+    }
+  }
+
   /* List */
 
   ul {
@@ -1304,6 +1322,12 @@ button,
 
   #footer {
     @include padding(5em, 3em, (0, 0, _size(element-margin), 0));
+  }
+
+  /* Contributors */
+
+  .contribs {
+    grid-template-columns: repeat(6, 1fr)!important;
   }
 
   /* One */
