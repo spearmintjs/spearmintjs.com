@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import appDemo from '../assets/images/spearmint.gif';
 import accessibilityLens from '../assets/images/accessibilityLens.gif';
-import saveAndGetTestDemo from '../assets/images/saveAndGetTestDemo.gif';
+import darkMode from '../assets/images/darkMode.gif';
 import snykDemo from '../assets/images/snyk-test-app.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
@@ -135,7 +135,7 @@ class Homepage extends React.Component {
               </p>
             </div>
             <div className='col-6'>
-              <img id='save-and-get-test' src={saveAndGetTestDemo} alt='save and get test demo'/>
+              <img id='save-and-get-test' src={darkMode} alt='activate dark mode'/>
             </div>
           </div>
         </section>
