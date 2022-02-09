@@ -26,12 +26,12 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6 center'>
               <header className='major'>
-                <h2>Create and run tests in Spearmint.</h2>
-                <h2>Zero coding required.</h2>
+                <h2>Create and run tests in Spearmint</h2>
+                <h2>- Zero coding required</h2>
               </header>
               <p>
-                Easily create, save, and run tests intuitively using Spearmint. Access your app's file directory and codebase while enjoying
-                a fully functional terminal and browser in-app.
+                Easily create, save, and run tests intuitively using Spearmint. Access your app's file directory and codebase while providing
+                a fully functional in-app terminal and browser.
                 
                 When you're ready to continue developing your application, your Jest test files will be in your app's __tests__ folder.
               </p>
@@ -51,18 +51,18 @@ class Homepage extends React.Component {
             </div>
             <div className='col-6'>
               <header className='major'>
-                <h2>A fresh take on testing.</h2>
+                <h2>A fresh take on testing</h2>
               </header>
               <p>
                 Writing tests is like eating your veggies: it's something everyone knows that they
-                should do, but not everyone does. Spearmint.js provides a simple way to write tests
+                should do, but not everyone does. Spearmint provides a simple way to write tests
                 that gives you confidence your React application will work in the way your users
                 interact with it.
               </p>
               <p>
                 Spearmint provides a user-friendly GUI for developers to easily generate tests with a few 
                 clicks of a button. It dynamically converts user inputs into executable test code 
-                through react-testing-library, jest, supertest, puppeteer, and axe-core. 
+                through react-testing-library, jest, supertest, puppeteer, vue-test-utils and axe-core. 
               </p>
               <p>
                 <i>
@@ -79,22 +79,22 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6'>
               <header className='major'>
-                <h2>Supports React, Redux, Hooks, Context, Puppeteer, Endpoint, Security and Accessibility Testing.</h2>
+                <h2>Supports React, Redux, Hooks, Context, Puppeteer, Endpoint, Vue, Security & Accessibility Testing</h2>
               </header>
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
-                reducers, or middleware. While you're at it, check out your hooks, context or even
+                reducers, or middleware as well. While you're at it, check out your hooks, context or even
                 your endpoints. If you're interested in performance, utilize the Puppeteer module.
                 Provide custom mock data and inputs, and you're on your way. You can also leverage the
                 <a href='https://github.com/dequelabs/axe-core'> Axe-Core </a> testing library
                 to verify that your application meets various 
-                accessibility standards and guarantees an internet for all. 
-              </p>
-              <p>
-                The latest version of Spearmint has a specific focus on security. The
+                accessibility standards and guarantees an internet for all. If you're concerned about security, the
                 <a href= 'https://github.com/snyk/snyk'> Snyk </a> 
                 library has been utilized to ensure your application is up to snuff for various 
-                security standards and make sure your app isn't vulnerable to malicious attacks.  
+                security standards and make sure your app isn't vulnerable to malicious attacks.
+              </p>
+              <p>
+                The latest version of Spearmint has a specific focus on Vue Testing. If your application is done with Vue, Spearmint uses the <a href='https://vue-test-utils.vuejs.org/'>Vue-Test-Utils</a> to handle it with fully functional Vue test generator. 
               </p>
             </div>
             <div className='col-6'>
@@ -112,7 +112,7 @@ class Homepage extends React.Component {
             </div>
             <div className='col-6'>
               <header className='major'>
-                <h2>Accessibility Lens.</h2>
+                <h2>Accessibility Lens - </h2>
                 <h2>See your app from different perspectives</h2>
               </header>
               <p>
@@ -128,10 +128,10 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
               <div className='col-6'>
                 <header className='major'>
-                  <h2>Test Saving.</h2>
+                  <h2>Modernized UI/UX with Dark Mode</h2>
               </header>
               <p>
-              Thanks to the login feature, developers can save their test templates. This allows for a quick render of frequently desired test clusters. Simply click the “Save Test” button, name the test template you have created and you’re good to go. To reload the test template click the “Get Test” button and select the test by the name given. This makes recalling tests much easier than having to re-build the tests like in previous versions. 
+              Spearmint provides an outstanding user interface and guarantees the best user experience. Drag test modals anywhere you want; exit popup windows at ease; or switch to dark mode as you desire - Spearmint has it all. When you want to save freshly generated test files for easy access in the future to modify or update, simply click the “Save Test” button, name the test template you have created and you’re good to go. You can easily find the test file saved in the __test__ folder. 
               </p>
             </div>
             <div className='col-6'>
@@ -150,7 +150,7 @@ class Homepage extends React.Component {
                 <h2>Security Testing</h2>
               </header>
               <p>
-                The latest version of Spearmint leverages the Snyk testing library to give developers the ability to test their application for security vulnerabilities including cross-site scripting (XSS), SQL injection and much more. It also checks your application’s dependencies for vulnerabilities to avoid future fixing efforts and save development time.  
+                Spearmint leverages the Snyk testing library to give developers the ability to test their application for security vulnerabilities including cross-site scripting (XSS), SQL injection and much more. It also checks your application’s dependencies for vulnerabilities to avoid future fixing efforts and save development time.  
               </p>
             </div>
           </div>
