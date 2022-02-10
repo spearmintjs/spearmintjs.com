@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
-import appDemo from '../assets/images/spearmint.gif';
+import appDemo from '../assets/images/demo.gif';
 import accessibilityLens from '../assets/images/accessibilityLens.gif';
 import darkMode from '../assets/images/darkMode.gif';
 import snykDemo from '../assets/images/snyk-test-app.gif';
@@ -9,6 +9,7 @@ import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/testoptions.gif';
 import ContributorsCard from '../components/ContributorsCard';
+import vueTest from '../assets/images/vuetest.gif'
 
 class Homepage extends React.Component {
   render() {
@@ -100,6 +101,8 @@ class Homepage extends React.Component {
             <div className='col-6'>
               <span className='image fit'>
                 <img src={addedfeatures} alt='Spearmint Options' />
+                <br/> <br/>
+                <img src={vueTest} alt='vue test' />
               </span>
             </div>
           </div>
