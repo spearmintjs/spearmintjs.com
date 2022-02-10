@@ -49,6 +49,12 @@ class Footer extends React.Component {
             />
 
             <ContributorsCard
+              name={`Chen 'Chloe' Lu`}
+              linkedIn='https://www.linkedin.com/in/chloeclu/'
+              github='https://github.com/chloelu29'
+            />
+
+            <ContributorsCard
               name='Chloe Aribo'
               linkedIn='https://www.linkedin.com/in/chloe-aribo/'
               github='https://www.github.com/HeyItsChloe'
@@ -88,6 +94,12 @@ class Footer extends React.Component {
               name='Gabriel Christo'
               linkedIn='https://www.linkedin.com/in/gabriel-christo-44364086/'
               github='https://github.com/bielchristo'
+            />
+
+            <ContributorsCard
+              name='Huy Bui'
+              linkedIn='https://www.linkedin.com/in/huyqbui'
+              github='https://github.com/huyqbui'
             />
 
             <ContributorsCard
@@ -157,6 +169,12 @@ class Footer extends React.Component {
             />
 
             <ContributorsCard
+              name='Mina Koo'
+              linkedIn='https://www.linkedin.com/in/minakoo/'
+              github='https://github.com/alsdk850'
+            />
+
+            <ContributorsCard
               name='Natlyn Phomsavanh'
               linkedIn='https://linkedin.com/in/natlyn-phom'
               github='https://github.com/natlynp'
@@ -178,6 +196,12 @@ class Footer extends React.Component {
               name='Rachel Yoo'
               linkedIn='https://www.linkedin.com/in/rachel-yoo/'
               github='https://www.github.com/rachethecreator'
+            />
+
+            <ContributorsCard
+              name='Ruzeb Chowdhury'
+              linkedIn='https://www.linkedin.com/in/ruzebchowdhury/'
+              github='https://github.com/Ruzeb'
             />
 
             <ContributorsCard
@@ -210,7 +234,10 @@ class Footer extends React.Component {
               github='https://github.com/TERR-inss'
             />
 
-            <ContributorsCard name='Tristen Wastell' linkedIn='' github='' />
+            <ContributorsCard name='Tristen Wastell' 
+              linkedIn='' 
+              github='' 
+            />
 
             <ContributorsCard
               name='Tolan Thornton'
