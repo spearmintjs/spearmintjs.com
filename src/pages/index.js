@@ -3,13 +3,13 @@ import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import appDemo from '../assets/images/demo.gif';
 import accessibilityLens from '../assets/images/accessibilityLens.gif';
-import darkMode from '../assets/images/darkMode.gif';
+import darkMode from '../assets/images/darkmode.gif';
 import snykDemo from '../assets/images/snyk-test-app.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
-import addedfeatures from '../assets/images/testoptions.gif';
+import addedfeatures from '../assets/images/addedgraphQL.gif';
 import ContributorsCard from '../components/ContributorsCard';
-import vueTest from '../assets/images/vuetest.gif'
+import svelteTest from '../assets/images/sveltetesting.gif'
 
 class Homepage extends React.Component {
   render() {
@@ -80,7 +80,7 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6'>
               <header className='major'>
-                <h2>Supports React, Redux, Hooks, Context, Puppeteer, Endpoint, Vue, Security & Accessibility Testing</h2>
+                <h2>Supports React, Redux, Svelte, GraphQL, Hooks, Context, Puppeteer, Endpoint, Vue, Security & Accessibility Testing</h2>
               </header>
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
@@ -95,14 +95,14 @@ class Homepage extends React.Component {
                 security standards and make sure your app isn't vulnerable to malicious attacks.
               </p>
               <p>
-                The latest version of Spearmint has a specific focus on Vue Testing. If your application is done with Vue, Spearmint uses the <a href='https://vue-test-utils.vuejs.org/'>Vue-Test-Utils</a> to handle it with fully functional Vue test generator. 
+                The latest version of Spearmint has a specific focus on Svelte Testing. If your application is done with Svelte, Spearmint uses the <a href='https://testing-library.com/docs/svelte-testing-library/intro/'>Svelte-Test</a> to handle it with a fully functional Svelte test generator. 
               </p>
             </div>
             <div className='col-6'>
               <span className='image fit'>
                 <img src={addedfeatures} alt='Spearmint Options' />
                 <br/> <br/>
-                <img src={vueTest} alt='vue test' />
+                <img src={svelteTest} alt='svelte test' />
               </span>
             </div>
           </div>
