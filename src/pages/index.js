@@ -5,6 +5,7 @@ import appDemo from '../assets/images/demo.gif';
 import accessibilityLens from '../assets/images/accessibilityLens.gif';
 import darkMode from '../assets/images/darkmode.gif';
 import snykDemo from '../assets/images/snyk-test-app.gif';
+import graphQLDemo from '../assets/images/graphQL.gif';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/addedgraphQL.gif';
@@ -84,7 +85,7 @@ class Homepage extends React.Component {
               </header>
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
-                reducers, or middleware as well. While you're at it, check out your hooks, context or even
+                reducers, or middleware. While you're at it, check out your hooks, context or even
                 your endpoints. If you're interested in performance, utilize the Puppeteer module.
                 Provide custom mock data and inputs, and you're on your way. You can also leverage the
                 <a href='https://github.com/dequelabs/axe-core'> Axe-Core </a> testing library
@@ -95,7 +96,8 @@ class Homepage extends React.Component {
                 security standards and make sure your app isn't vulnerable to malicious attacks.
               </p>
               <p>
-                The latest version of Spearmint has a specific focus on Svelte Testing. If your application is done with Svelte, Spearmint uses the <a href='https://testing-library.com/docs/svelte-testing-library/intro/'>Svelte-Test</a> to handle it with a fully functional Svelte test generator. 
+                The latest version of Spearmint has a specific focus on Svelte Testing. If your application is developed with Svelte, Spearmint uses the <a href='https://testing-library.com/docs/svelte-testing-library/intro/'>Svelte-Test</a> to handle it with a fully functional Svelte test generator. 
+                {/* add sentence for graphql */}  Also the lastest version of Spearmint includes a focus on GraphQL testing allowing developers whose applications utilize GraphQL the ability to test their endpoints. 
               </p>
             </div>
             <div className='col-6'>
@@ -146,19 +148,18 @@ class Homepage extends React.Component {
         <section id='six' className='main style2'>
           <div className='grid-wrapper'>
             <div className='col-6'>
-              <img id='accessibility-lens' src={snykDemo} alt='Accessibility Lens App Demo' />
+              <img id='accessibility-lens' src={graphQLDemo} alt='Accessibility Lens App Demo' />
             </div>
             <div className='col-6'>
               <header className='major'>
-                <h2>Security Testing</h2>
+                <h2>GraphQL Testing</h2> 
               </header>
               <p>
-                Spearmint leverages the Snyk testing library to give developers the ability to test their application for security vulnerabilities including cross-site scripting (XSS), SQL injection and much more. It also checks your application’s dependencies for vulnerabilities to avoid future fixing efforts and save development time.  
+                Spearmint leverages the Supertest Testing Library to give developers the ability to asynchronously test their GraphQL Endpoint and perform operation types such as queries, mutations, and subscriptions. 
               </p>
             </div>
           </div>
         </section>
-
       </Layout>
     );
   }
