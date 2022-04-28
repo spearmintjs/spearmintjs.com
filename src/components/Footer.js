@@ -59,6 +59,12 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/chloe-aribo/'
               github='https://www.github.com/HeyItsChloe'
             />
+            
+            <ContributorsCard
+              name='Chris Cheng'
+              linkedIn='https://www.linkedin.com/in/ctpcheng'
+              github='https://www.linkedin.com/in/ctpcheng'
+            />
 
             <ContributorsCard
               name='Cornelius Phanthanh'
@@ -70,6 +76,17 @@ class Footer extends React.Component {
               name='Dave Franz'
               linkedIn='https://www.linkedin.com/in/dave-franz/'
               github='https://www.github.com/davefranz'
+            />
+            
+            <ContributorsCard
+              name='David Kim'
+              linkedIn='https://www.linkedin.com/in/dydavidkim/'
+              github='https://github.com/koyykdy'
+            />
+             <ContributorsCard
+              name='DeriAnte Sinclair'
+              linkedIn='https://www.linkedin.com/in/deriante-sinclair-a76321238/'
+              github='https://github.com/Dsin16'
             />
             
             <ContributorsCard
@@ -112,6 +129,11 @@ class Footer extends React.Component {
               name='Joseph Nagy'
               linkedIn='https://www.linkedin.com/in/josephmnagy'
               github='https://github.com/Josephnagy'
+            />
+            <ContributorsCard
+            name='Judy Song'
+            linkedIn='https://www.linkedin.com/in/judysongg'
+            github='https://github.com/judysongg'
             />
 
             <ContributorsCard
@@ -172,6 +194,12 @@ class Footer extends React.Component {
               name='Mina Koo'
               linkedIn='https://www.linkedin.com/in/minakoo/'
               github='https://github.com/alsdk850'
+            />
+
+            <ContributorsCard
+              name='Myles Tsutsui'
+              linkedIn='https://www.linkedin.com/in/mylestsutsui'
+              github='https://github.com/mylestsutsui'
             />
 
             <ContributorsCard
