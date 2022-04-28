@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import Layout from '../components/layout';
 import appDemo from '../assets/images/demo.gif';
 import accessibilityLens from '../assets/images/accessibilityLens.gif';
-import darkMode from '../assets/images/darkmode.gif';
+import darkMode from '../assets/images/darkmodelogin.gif';
 import snykDemo from '../assets/images/snyk-test-app.gif';
 import graphQLDemo from '../assets/images/graphQL.gif';
 import todoTest from '../assets/images/todoTest.png';
