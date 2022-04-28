@@ -5,11 +5,11 @@ class Header extends React.Component {
     super(props);
 
     this.os = '';
-    this.macDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.8.0/spearmint-installer.dmg';
-    this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.8.0/spearmint-installer.exe';
-    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.8.0/Spearmint-0.8.0.amd64.deb';
-  }
-
+    this.macDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.10.0/spearmint-0.10.0-x64.dmg';
+    this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.10.0/spearmint-0.10.0.exe';
+    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.10.0/spearmint_0.10.0_amd64.deb'; 
+  } 
+  
   render() {
     console.log(this.downloadLink);
     return (
