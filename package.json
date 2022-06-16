@@ -3,6 +3,9 @@
   "description": "landing page for spearmint",
   "version": "1.0.0",
   "author": "spearmint.js",
+  "engines": {
+    "node": "<=14.19"
+   },
   "dependencies": {
     "gatsby": "^2.2.9",
     "gatsby-cli": "^2.6.7",
