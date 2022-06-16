@@ -7,7 +7,7 @@ class Header extends React.Component {
     this.os = '';
     this.macDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.11.0/spearmint-0.11.0.dmg';
     this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.11.0/spearmint.Setup.0.11.0.exe';
-    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.11.0/spearmint.Setup.0.11.0.exe'; 
+    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.11.0/spearmint_0.11.0_arm64.deb'; 
     this.dockerLink = 'https://hub.docker.com/r/spearmintoslabs/spearmint'; 
   } 
   
