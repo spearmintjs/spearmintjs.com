@@ -5,13 +5,13 @@ class Header extends React.Component {
     super(props);
 
     this.os = '';
-    this.macDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.10.0/spearmint-0.10.0-x64.dmg';
-    this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.10.0/spearmint-darwin-x64-0.10.0.zip';
-    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.10.0/spearmint_0.10.0_amd64.deb'; 
+    this.macDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.11.0/spearmint-0.11.0.dmg';
+    this.windowDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.11.0/spearmint.Setup.0.11.0.exe';
+    this.linuxDownload = 'https://github.com/open-source-labs/spearmint/releases/download/v0.11.0/spearmint_0.11.0_arm64.deb'; 
+    this.dockerLink = 'https://hub.docker.com/r/spearmintoslabs/spearmint'; 
   } 
   
   render() {
-    console.log(this.downloadLink);
     return (
       <section id='header'>
         <div className='inner'>
@@ -43,6 +43,10 @@ class Header extends React.Component {
               <a href={this.linuxDownload} className='button scrolly'>
                 Linux (.deb)
                 <i className={'icon alt fa-linux margin-left'} />
+              </a>
+              <a href={this.dockerLink} className='button scrolly'>
+                Docker Hub
+                <i className={'icon alt fa-docker margin-left'} />
               </a>
             </li>
           </ul>
