@@ -1,16 +1,15 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../components/layout';
-import appDemo from '../assets/images/demo.gif';
-import accessibilityLens from '../assets/images/accessibilityLens.gif';
+import appDemo from '../assets/images/demo.png';
+import accessibilityLens from '../assets/images/Acc Demo.gif';
 import darkMode from '../assets/images/darkmodelogin.gif';
-import snykDemo from '../assets/images/snyk-test-app.gif';
-import graphQLDemo from '../assets/images/graphQL.gif';
+import docker from '../assets/images/docker.png';
 import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
-import addedfeatures from '../assets/images/addedgraphQL.gif';
-import ContributorsCard from '../components/ContributorsCard';
-import svelteTest from '../assets/images/sveltetesting.gif'
+import addedfeatures from '../assets/images/panel.png';
+import solidTest from '../assets/images/Run Demo.gif'
+
 
 class Homepage extends React.Component {
   render() {
@@ -58,13 +57,13 @@ class Homepage extends React.Component {
               <p>
                 Writing tests is like eating your veggies: it's something everyone knows that they
                 should do, but not everyone does. Spearmint provides a simple way to write tests
-                that gives you confidence your React application will work in the way your users
+                that gives you confidence your application will work in the way your users
                 interact with it.
               </p>
               <p>
                 Spearmint provides a user-friendly GUI for developers to easily generate tests with a few 
                 clicks of a button. It dynamically converts user inputs into executable test code 
-                through react-testing-library, jest, supertest, puppeteer, vue-test-utils and axe-core. 
+                through react-testing-library, jest, supertest, puppeteer, vue-test-utils, solid-testing-library, and axe-core. 
               </p>
               <p>
                 <i>
@@ -81,7 +80,7 @@ class Homepage extends React.Component {
           <div className='grid-wrapper'>
             <div className='col-6'>
               <header className='major'>
-                <h2>Supports React, Redux, Svelte, GraphQL, Hooks, Context, Puppeteer, Endpoint, Vue, Security & Accessibility Testing</h2>
+                <h2>Supports React, Redux, Svelte, Solid, GraphQL, Hooks, Context, Puppeteer, Endpoint, Vue, Security & Accessibility Testing</h2>
               </header>
               <p>
                 Spearmint isn't just for React. Write tests for your Redux actions, async functions,
@@ -96,15 +95,17 @@ class Homepage extends React.Component {
                 security standards and make sure your app isn't vulnerable to malicious attacks.
               </p>
               <p>
-                The latest version of Spearmint has a specific focus on Svelte Testing. If your application is developed with Svelte, Spearmint uses the <a href='https://testing-library.com/docs/svelte-testing-library/intro/'>Svelte-Test</a> to handle it with a fully functional Svelte test generator. 
-                {/* add sentence for graphql */}  Also the lastest version of Spearmint includes a focus on GraphQL testing allowing developers whose applications utilize GraphQL the ability to test their endpoints. 
+              The latest version of Spearmint introduces support for SolidJS. 
+              If your application is developed with Solid, you can utilize the <a href='https://github.com/solidjs/solid-testing-library'>Solid-Testing-Library</a> via Spearmint’s test generator 
+              to develop, run, and export your test files, all inside of Spearmint! Additionally, 
+              Spearmint is now available on <a href='https://hub.docker.com/r/spearmintoslabs/spearmint'>Docker Hub</a> as a downloadable Docker Image to be deployed alongside your other containers. 
               </p>
             </div>
             <div className='col-6'>
               <span className='image fit'>
                 <img src={addedfeatures} alt='Spearmint Options' />
                 <br/> <br/>
-                <img src={svelteTest} alt='svelte test' />
+                <img src={solidTest} alt='svelte test' />
               </span>
             </div>
           </div>
@@ -140,7 +141,7 @@ class Homepage extends React.Component {
               </p>
             </div>
             <div className='col-6'>
-              <img id='save-and-get-test' src={darkMode} alt='activate dark mode'/>
+              <img id='accessibility-lens' src={darkMode} alt='activate dark mode'/>
             </div>
           </div>
         </section>
@@ -148,14 +149,14 @@ class Homepage extends React.Component {
         <section id='six' className='main style2'>
           <div className='grid-wrapper'>
             <div className='col-6'>
-              <img id='accessibility-lens' src={graphQLDemo} alt='Accessibility Lens App Demo' />
+              <img id='accessibility-lens' src={docker} alt='Accessibility Lens App Demo' />
             </div>
             <div className='col-6'>
               <header className='major'>
-                <h2>GraphQL Testing</h2> 
+                <h2>Containerized Image</h2> 
               </header>
               <p>
-                Spearmint leverages the Supertest Testing Library to give developers the ability to asynchronously test their GraphQL Endpoint and perform operation types such as queries, mutations, and subscriptions. 
+                The Spearmint team is excited to offer Spearmint as an OCI-compliant container image via Docker. 
               </p>
             </div>
           </div>

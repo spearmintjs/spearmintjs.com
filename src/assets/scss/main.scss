@@ -3,7 +3,8 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 @import 'css-grid';
-@import url('../css/font-awesome.min.css');
+
+@import url('../fontawesome-free-6.0.0-web/css/all.css');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Raleway|Oxygen&display=swap');
 
 $comfortaa: 'Comfortaa', cursive;
@@ -1080,16 +1081,6 @@ button,
   .actions {
     margin: (_size(element-margin) * 1.25) 0 0 0;
     position: relative;
-
-    &:after {
-      background: _palette(dark, border);
-      content: '';
-      height: 100vh;
-      left: 50%;
-      position: absolute;
-      top: 100%;
-      width: 1px;
-    }
   }
 
   .inner {

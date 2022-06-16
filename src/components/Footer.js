@@ -29,7 +29,13 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/alfred-sta-iglesia/'
               github='https://github.com/astaiglesia'
             />
-
+            
+            <ContributorsCard
+              name='Anjanie McCoy'
+              linkedIn='https://www.linkedin.com/in/anjaniemccoy/'
+              github='https://github.com/anjaniemccoy'
+            />
+            
             <ContributorsCard
               name='Annie Shin'
               linkedIn='https://www.linkedin.com/in/annieshinn/'
@@ -40,6 +46,12 @@ class Footer extends React.Component {
               name='Ben Kwak'
               linkedIn='https://www.linkedin.com/in/ben-kwak/'
               github='https://github.com/bkwak'
+            />
+
+            <ContributorsCard
+              name='Chacta Brice'
+              linkedIn='https://www.linkedin.com/in/chacta-isaacs-brice-258636ba/'
+              github='https://github.com/StaticShock93'
             />
 
             <ContributorsCard
@@ -96,6 +108,12 @@ class Footer extends React.Component {
             />
 
             <ContributorsCard 
+             name='Eric Komatsu' 
+             linkedIn='https://www.linkedin.com/in/eric-komatsu/' 
+             github='https://github.com/etkomatsu' 
+            />
+            
+            <ContributorsCard 
              name='Eric Park' 
              linkedIn='https://www.linkedin.com/in/ericgpark/' 
              github='https://github.com/ericgpark' 
@@ -117,6 +135,12 @@ class Footer extends React.Component {
               name='Huy Bui'
               linkedIn='https://www.linkedin.com/in/huyqbui'
               github='https://github.com/huyqbui'
+            />
+            
+            <ContributorsCard
+              name='Li Cheng'
+              linkedIn='https://www.linkedin.com/in/li-cheng-76890540'
+              github='https://github.com/delacour124'
             />
 
             <ContributorsCard
@@ -274,9 +298,15 @@ class Footer extends React.Component {
             />
 
             <ContributorsCard
-            name='Tyler Martinez'
-            linkedIn='https://www.linkedin.com/in/tylerjamesonmartinez/'
-            github='https://github.com/tytyjameson'
+              name='Tyler Martinez'
+              linkedIn='https://www.linkedin.com/in/tylerjamesonmartinez/'
+              github='https://github.com/tytyjameson'
+            />
+
+            <ContributorsCard
+              name='Yeunha Kim'
+              linkedIn='https://www.linkedin.com/in/yeunhakim93/'
+              github='https://github.com/yeunhakim93'
             />
 
           </div>
@@ -287,18 +317,18 @@ class Footer extends React.Component {
             <h2>Want to Contribute?</h2>
           </header>
           <p>
-            Join us and help developers write better React tests in less time. <br /> Star us on
-            Github!{' '}
+            Join us and help developers write better React tests in less time. <br /> 
+            Star us on Github!
           </p>
           <ul className='actions uniform'>
             <li>
-              <a href='mailto:spearmintjs@gmail.com' id='footer-buttons' className='button special'>
+              <a href='mailto:oslabsspearmint@gmail.com' id='footer-buttons' className='button special'>
                 Email
               </a>
             </li>
             <li>
               <a
-                href='https://www.github.com/spearmintjs/spearmint'
+                href='https://github.com/open-source-labs/spearmint'
                 id='footer-buttons'
                 className='button'
               >
