@@ -7,13 +7,13 @@
     "node": "<=14.19"
    },
   "dependencies": {
-    "gatsby": "^2.2.9",
+    "gatsby": "^5.3.3",
     "gatsby-cli": "^2.6.7",
     "gatsby-plugin-google-analytics": "^2.0.21",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-plugin-sass": "^6.3.1",
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
