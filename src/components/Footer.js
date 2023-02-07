@@ -49,6 +49,12 @@ class Footer extends React.Component {
             />
 
             <ContributorsCard
+              name='Brandon Tran'
+              linkedIn='https://www.linkedin.com/in/btran140/'
+              github='https://github.com/btran140'
+            />
+
+            <ContributorsCard
               name='Chacta Brice'
               linkedIn='https://www.linkedin.com/in/chacta-isaacs-brice-258636ba/'
               github='https://github.com/StaticShock93'
@@ -82,6 +88,12 @@ class Footer extends React.Component {
               name='Cornelius Phanthanh'
               linkedIn='https://www.linkedin.com/in/corneliusphanthanh/'
               github='https://www.github.com/Corneeltron'
+            />
+
+            <ContributorsCard
+              name='Danny Wallace'
+              linkedIn='https://www.linkedin.com/in/danuscript/'
+              github='https://www.github.com/danuscript'
             />
 
             <ContributorsCard
@@ -119,10 +131,22 @@ class Footer extends React.Component {
              github='https://github.com/ericgpark' 
             />
 
+            <ContributorsCard 
+             name='Erika Collins' 
+             linkedIn='https://www.linkedin.com/in/erika-collins-reynolds/' 
+             github='https://github.com/erikacollinsreynolds' 
+            />
+
             <ContributorsCard
               name='Evan Berghoff'
               linkedIn='https://www.linkedin.com/in/evanberghoff/'
               github='https://github.com/Berghoer'
+            />
+            
+            <ContributorsCard
+              name='Evan Decker'
+              linkedIn='https://www.linkedin.com/in/evan-decker-974564169/'
+              github='https://github.com/EvanDecker'
             />
 
             <ContributorsCard
@@ -138,9 +162,9 @@ class Footer extends React.Component {
             />
             
             <ContributorsCard
-              name='Li Cheng'
-              linkedIn='https://www.linkedin.com/in/li-cheng-76890540'
-              github='https://github.com/delacour124'
+              name='Jasmine Gonzalez'
+              linkedIn='https://www.linkedin.com/in/jasminezalez/'
+              github='https://github.com/jasminezalez'
             />
 
             <ContributorsCard
@@ -176,6 +200,12 @@ class Footer extends React.Component {
               name='Karen Pinilla'
               linkedIn='https://www.linkedin.com/in/karen-pinilla/'
               github='https://github.com/karenpinilla'
+              />
+
+            <ContributorsCard
+              name='Li Cheng'
+              linkedIn='https://www.linkedin.com/in/li-cheng-76890540'
+              github='https://github.com/delacour124'
             />
 
             <ContributorsCard
@@ -251,6 +281,12 @@ class Footer extends React.Component {
             />
 
             <ContributorsCard
+              name='Rawan Bairouti'
+              linkedIn='https://www.linkedin.com/in/rawanbairouti/'
+              github='https://github.com/rawanBairouti'
+            />
+
+            <ContributorsCard
               name='Ruzeb Chowdhury'
               linkedIn='https://www.linkedin.com/in/ruzebchowdhury/'
               github='https://github.com/Ruzeb'
@@ -286,21 +322,40 @@ class Footer extends React.Component {
               github='https://github.com/TERR-inss'
             />
 
-            <ContributorsCard name='Tristen Wastell' 
-              linkedIn='' 
-              github='' 
-            />
-
             <ContributorsCard
               name='Tolan Thornton'
               linkedIn='https://www.linkedin.com/in/tolanthornton/'
               github='https://github.com/taoantaoan'
             />
 
+            <ContributorsCard 
+              name='Tristen Wastell' 
+              linkedIn='https://www.linkedin.com/in/tristenwastell/' 
+              github='https://github.com/twastell' 
+            />
+
+            <ContributorsCard 
+              name='Troy Witonsky' 
+              linkedIn='www.linkedin.com/in/troy-witonsky' 
+              github='https://github.com/TWitonsky' 
+            />
+
             <ContributorsCard
               name='Tyler Martinez'
               linkedIn='https://www.linkedin.com/in/tylerjamesonmartinez/'
               github='https://github.com/tytyjameson'
+            />
+
+            <ContributorsCard
+              name='William Lee'
+              linkedIn='https://www.linkedin.com/in/williamhaaklee/'
+              github='https://github.com/WilliamHaakLee'
+            />
+            
+            <ContributorsCard
+              name='Wilson Tran'
+              linkedIn='https://www.linkedin.com/in/wilsonwttran/'
+              github='https://github.com/Wilson-Tran'
             />
 
             <ContributorsCard
