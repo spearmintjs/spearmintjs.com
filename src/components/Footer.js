@@ -49,6 +49,12 @@ class Footer extends React.Component {
             />
 
             <ContributorsCard
+              name='Brandon Tran'
+              linkedIn='https://www.linkedin.com/in/btran140/'
+              github='https://github.com/btran140'
+            />
+
+            <ContributorsCard
               name='Chacta Brice'
               linkedIn='https://www.linkedin.com/in/chacta-isaacs-brice-258636ba/'
               github='https://github.com/StaticShock93'
@@ -316,16 +322,22 @@ class Footer extends React.Component {
               github='https://github.com/TERR-inss'
             />
 
+            <ContributorsCard
+              name='Tolan Thornton'
+              linkedIn='https://www.linkedin.com/in/tolanthornton/'
+              github='https://github.com/taoantaoan'
+            />
+
             <ContributorsCard 
               name='Tristen Wastell' 
               linkedIn='https://www.linkedin.com/in/tristenwastell/' 
               github='https://github.com/twastell' 
             />
 
-            <ContributorsCard
-              name='Tolan Thornton'
-              linkedIn='https://www.linkedin.com/in/tolanthornton/'
-              github='https://github.com/taoantaoan'
+            <ContributorsCard 
+              name='Troy Witonsky' 
+              linkedIn='www.linkedin.com/in/troy-witonsky' 
+              github='https://github.com/TWitonsky' 
             />
 
             <ContributorsCard
