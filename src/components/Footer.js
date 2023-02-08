@@ -124,6 +124,12 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/evanberghoff/'
               github='https://github.com/Berghoer'
             />
+            
+            <ContributorsCard
+              name='Evan Decker'
+              linkedIn='www.linkedin.com/in/evan-d-decker'
+              github='https://github.com/EvanDecker'
+            />
 
             <ContributorsCard
               name='Gabriel Christo'
