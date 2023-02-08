@@ -145,7 +145,7 @@ class Footer extends React.Component {
             
             <ContributorsCard
               name='Evan Decker'
-              linkedIn='https://www.linkedin.com/in/evan-decker-974564169/'
+              linkedIn='www.linkedin.com/in/evan-d-decker'
               github='https://github.com/EvanDecker'
             />
 
