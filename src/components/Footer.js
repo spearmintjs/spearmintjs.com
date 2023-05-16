@@ -53,6 +53,12 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/btran140/'
               github='https://github.com/btran140'
             />
+      
+            <ContributorsCard
+              name='Carter Long'
+              linkedIn='https://www.linkedin.com/in/carterrobertlong/'
+              github='https://github.com/Cartlong7'
+            />
 
             <ContributorsCard
               name='Chacta Brice'
@@ -118,6 +124,12 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/dieu-huynh/'
               github='https://www.github.com/dieunity'
             />
+  
+            <ContributorsCard
+              name='Dylan Hawkins'
+              linkedIn='https://www.linkedin.com/in/dylan-andrew-hawkins/'
+              github='https://github.com/hawkinsd'
+            />
 
             <ContributorsCard 
              name='Eric Komatsu' 
@@ -153,6 +165,12 @@ class Footer extends React.Component {
               name='Gabriel Christo'
               linkedIn='https://www.linkedin.com/in/gabriel-christo-44364086/'
               github='https://github.com/bielchristo'
+            />
+  
+            <ContributorsCard
+              name='Gary Balogh'
+              linkedIn='https://www.linkedin.com/in/garybalogh/'
+              github='https://github.com/GaryB93'
             />
 
             <ContributorsCard
@@ -195,6 +213,12 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/justin-baik/'
               github='https://github.com/JIB3377'
             />
+  
+            <ContributorsCard
+              name='Justin Dilts'
+              linkedIn='https://www.linkedin.com/in/justin-d-1674a5191/'
+              github='https://github.com/Suigin1'
+            />
 
             <ContributorsCard
               name='Karen Pinilla'
@@ -218,6 +242,12 @@ class Footer extends React.Component {
               name='Luis Lo'
               linkedIn='https://www.linkedin.com/in/luis-lo/'
               github='https://github.com/Luis-KM-Lo'
+            />
+  
+            <ContributorsCard
+              name='Luke Lauther'
+              linkedIn='https://www.linkedin.com/in/lukelauther/'
+              github='https://github.com/lukelauther'
             />
 
             <ContributorsCard
