@@ -44,10 +44,10 @@ class Header extends React.Component {
                 Linux (.deb)
                 <i className={'icon alt fa-linux margin-left'} />
               </a>
-              <a href={this.dockerLink} className='button scrolly'>
+              {/* removed docker section as image is not currently supported for docker container deployment: <a href={this.dockerLink} className='button scrolly'>
                 Docker Hub
                 <i className={'icon alt fa-docker margin-left'} />
-              </a>
+              </a> */}
             </li>
           </ul>
         </div>
