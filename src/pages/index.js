@@ -97,10 +97,10 @@ class Homepage extends React.Component {
                 security standards and make sure your app isn't vulnerable to malicious attacks.
               </p>
               <p>
-              The latest version of Spearmint introduces support for SolidJS. 
+              Spearmint provides support for SolidJS. 
               If your application is developed with Solid, you can utilize the <a href='https://github.com/solidjs/solid-testing-library'>Solid-Testing-Library</a> via Spearmint’s test generator 
-              to develop, run, and export your test files, all inside of Spearmint! Additionally, 
-              Spearmint is now available on <a href='https://hub.docker.com/r/spearmintoslabs/spearmint'>Docker Hub</a> as a downloadable Docker Image to be deployed alongside your other containers. 
+              to develop, run, and export your test files, all inside of Spearmint! 
+              {/* This section can be uncommented when a new docker image is generated: Additionally, Spearmint is now available on <a href='https://hub.docker.com/r/spearmintoslabs/spearmint'>Docker Hub</a> as a downloadable Docker Image to be deployed alongside your other containers. */}
               </p>
             </div>
             <div className='col-6'>
@@ -139,7 +139,7 @@ class Homepage extends React.Component {
                   <h2>Modernized UI/UX with Dark Mode</h2>
               </header>
               <p>
-              Spearmint provides an outstanding user interface and guarantees the best user experience. Drag test modals anywhere you want; exit popup windows at ease; or switch to dark mode as you desire - Spearmint has it all. When you want to save freshly generated test files for easy access in the future to modify or update, simply click the “Save Test” button, name the test template you have created and you’re good to go. You can easily find the test file saved in the __test__ folder. 
+              Spearmint provides an outstanding user interface and guarantees the best user experience. When you want to save freshly generated test files for easy access in the future to modify or update, simply click the “Save Test” button, name the test template you have created and you’re good to go. You can easily find the test file saved in the __test__ folder. 
               </p>
             </div>
             <div className='col-6'>
@@ -148,7 +148,7 @@ class Homepage extends React.Component {
           </div>
         </section>
 
-        <section id='six' className='main style2'>
+        {/* This section can be uncommented when a new docker image is generated: <section id='six' className='main style2'>
           <div className='grid-wrapper'>
             <div className='col-6'>
               <img id='accessibility-lens' src={docker} alt='Accessibility Lens App Demo' />
@@ -162,7 +162,7 @@ class Homepage extends React.Component {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
       </Layout>
     );
   }
