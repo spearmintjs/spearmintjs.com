@@ -10,6 +10,7 @@ import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/panel.png';
 import solidTest from '../assets/images/Run Demo.gif'
 import reactTestDemo from '../assets/images/ReactTestDemo.gif';
+import testMenu from '../assets/images/TestMenu.png';
 
 
 class Homepage extends React.Component {
@@ -40,7 +41,7 @@ class Homepage extends React.Component {
             </div>
             <div className='col-6'>
               <span className='image fit'>
-                <img src={appDemo} alt='Spearmint App Demo' />
+                <img src={testMenu} alt='Spearmint App Demo' />
               </span>
             </div>
           </div>
