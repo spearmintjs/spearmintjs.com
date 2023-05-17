@@ -9,7 +9,7 @@ import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/panel.png';
 import solidTest from '../assets/images/Run Demo.gif'
-import reactTestDemo from '../assets/images/ReactTestDemo.gif';
+import reactTestDemo from '../assets/images/RTD.webp';
 import testMenu from '../assets/images/TestMenu.png';
 
 
