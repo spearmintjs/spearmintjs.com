@@ -9,6 +9,7 @@ import todoTest from '../assets/images/todoTest.png';
 import favicon from '../assets/images/favicon.ico';
 import addedfeatures from '../assets/images/panel.png';
 import solidTest from '../assets/images/Run Demo.gif'
+import reactTestDemo from '../assets/images/ReactTestDemo.gif';
 
 
 class Homepage extends React.Component {
@@ -105,7 +106,7 @@ class Homepage extends React.Component {
               <span className='image fit'>
                 <img src={addedfeatures} alt='Spearmint Options' />
                 <br/> <br/>
-                <img src={solidTest} alt='svelte test' />
+                <img src={reactTestDemo} alt='svelte test' />
               </span>
             </div>
           </div>
