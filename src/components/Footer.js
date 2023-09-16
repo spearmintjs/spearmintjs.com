@@ -124,6 +124,12 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/dieu-huynh/'
               github='https://www.github.com/dieunity'
             />
+
+            <ContributorsCard
+              name='Donovan Jackson'
+              linkedIn='https://www.linkedin.com/in/donovan-jackson-engineer/'
+              github='https://github.com/DonoCodePeriod'
+            />
   
             <ContributorsCard
               name='Dylan Hawkins'
@@ -207,6 +213,12 @@ class Footer extends React.Component {
               linkedIn='https://www.linkedin.com/in/juliebeak'
               github='https://www.github.com/julicious100'
             />
+
+            <ContributorsCard
+              name='Julio Menard'
+              linkedIn='https://www.linkedin.com/in/juliocmenard/'
+              github='https://github.com/juliomenard'
+            />
             
             <ContributorsCard
               name='Justin Baik'
@@ -238,6 +250,12 @@ class Footer extends React.Component {
               github='https://www.github.com/lcwish'
             />
 
+            <ContributorsCard
+              name='Lis Medina Frey'
+              linkedIn='https://www.linkedin.com/in/lismedina/'
+              github='https://github.com/LisCMF'
+            />   
+            
             <ContributorsCard
               name='Luis Lo'
               linkedIn='https://www.linkedin.com/in/luis-lo/'
@@ -350,6 +368,12 @@ class Footer extends React.Component {
               name='Terence Petersen'
               linkedIn='https://www.linkedin.com/in/terence-petersen'
               github='https://github.com/TERR-inss'
+            />
+
+            <ContributorsCard
+              name='Timothy Evans'
+              linkedIn='https://www.linkedin.com/in/timevans951'
+              github='https://github.com/tim-oteoo'
             />
 
             <ContributorsCard
